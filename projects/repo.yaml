@@ -1,0 +1,120 @@
+# ------ Photometry ------ #
+huoguo:
+  intro: "Photometric Analysis of Massive Galaxies in HSC Y3 Data"
+  github: "https://github.com/dr-guangtou/huoguo"
+  local:
+    - "/Users/mac/Dropbox/work/project/massive/huoguo"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: being_planned
+
+isoster:
+  intro: "ISOphote on STERoid - A Faster Version of Elliptical Isophote Fitting"
+  github: "https://github.com/MassiveSeaOtters/isoster"
+  local:
+    - "/Users/mac/Dropbox/work/project/otters/isoster"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: under_development
+
+confeti:
+  intro: "Confeti: Contour Fitting for EllipTical Isophotes"
+  github: "https://github.com/MassiveSeaOtters/confeti"
+  local:
+    - "/Users/mac/Dropbox/work/project/otters/confeti"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: just_beginning
+
+isophote_test:
+  intro: "Confeti: Contour Fitting for EllipTical Isophotes"
+  github: "https://github.com/MassiveSeaOtters/isophote_test"
+  local:
+    - "/Users/mac/Dropbox/work/project/otters/isophote_test"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: under_development
+
+hsc_sandbox:
+  intro: "Confeti: Contour Fitting for EllipTical Isophotes"
+  github: "https://github.com/MassiveSeaOtters/hsc_sandbox"
+  local:
+    - "/Users/mac/Dropbox/work/project/otters/hsc_sandbox"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: being_planned
+
+miso:
+  intro: "Playing with the 3-D Shape Inference for Massive Galaxies"
+  github: "https://github.com/MassiveSeaOtters/miso"
+  local:
+    - "/Users/mac/Dropbox/work/project/otters/miso"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: being_planned
+
+star_forming_clusters:
+  intro: "Organizing a small project to search for star-formation in galaxy clusters and analyze a special case - the spider"
+  github: "https://github.com/MassiveSeaOtters/star_forming_clusters"
+  local:
+    - "/Users/mac/Dropbox/work/project/otters/star_forming_clusters"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: being_planned
+
+acf:
+  intro: "Awesome Cluster Finder"
+  github: "https://github.com/MassiveSeaOtters/acf"
+  local:
+    - "/Users/mac/Dropbox/work/project/otters/acf"
+  related:
+    - "projects/photometry"
+    - "projects/hsc"
+    - "projects/massive"
+  status: being_planned
+
+# ------ Notes ------ #
+guangtou_vibe:
+  intro: "Personal collection of notes about learning agentic coding."
+  github: "https://github.com/dr-guangtou/guangtou_vibe"
+  local:
+    - "/Users/mac/Dropbox/work/project/vibe/guangtou_vibe"
+  related:
+    - "cards/agentic"
+  status:
+    - under_development
+
+yuzhe:
+  intro: "Personal research assistant."
+  github: "https://github.com/dr-guangtou/yuzhe"
+  local:
+    - "/Users/mac/Dropbox/work/project/vibe/yuzhe"
+  related:
+    - "cards/agentic"
+  status:
+    - under_development
+
+# ------ MUST Related ------ #
+qingsong:
+  intro: "Project Management Workflow and Repository for MUST"
+  github: "https://github.com/MUST-Science-Collaboration/qingsong"
+  local:
+    - "/Users/mac/Dropbox/work/project/vibe/qingsong"
+  related:
+    - "must"
+  status:
+    - just_beginning
