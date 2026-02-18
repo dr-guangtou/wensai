@@ -37,6 +37,8 @@ tags:
 	- `astro`: Cards related to astronomy-related topics.
 	- `vibe`: Cards related to AI or agentic development.
 - `papers`: Notes about individual publications.
+	- `arxiv`: daily arXiv summary
+	- `extragalactic`: a collection of extragalactic papers.
 
 ## Tag System
 
