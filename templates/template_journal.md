@@ -1,9 +1,4 @@
 ---
-
----
-
-
----
 date: "{{date}}"
 tags:
   - journal

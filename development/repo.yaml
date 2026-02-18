@@ -1,9 +1,19 @@
+# YAML file to keep tracks of the development projects I am working on.
+# Documents:
+# The main keyword is the name of the repository. e.g., `huoguo`, `isoster`
+# `instro`: brief introduction of the development
+# `github`: the URL of the Github repository.
+# `local`: directory of the local repo. This is a list, because the repo could happen on multiple computers, including the Mac Studio in my office, my MacBook Air, and Mackbook Pro.
+# `related`: the projects this repo is related to, using the file structure within this Obsidian Vault (wensai). This is also a list. One repo can relate to multiple topics.
+# `status`: the current status of the development, including `being_planned`, `just_beginning`, `under_development`, `implemented`, and `published`.
+# `resume`: the session ID for different coding agents to resume the development. The name of the key is the coding agents' CLI names, like `claude`, `codex`, `kimi-cli`, `gemini`. `resume` is optional.
+
 # ------ Photometry ------ #
 huoguo:
   intro: "Photometric Analysis of Massive Galaxies in HSC Y3 Data"
   github: "https://github.com/dr-guangtou/huoguo"
   local:
-    - "/Users/mac/Dropbox/work/project/massive/huoguo"
+    - macbook_air: "/Users/mac/Dropbox/work/project/massive/huoguo"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -14,7 +24,7 @@ isoster:
   intro: "ISOphote on STERoid - A Faster Version of Elliptical Isophote Fitting"
   github: "https://github.com/MassiveSeaOtters/isoster"
   local:
-    - "/Users/mac/Dropbox/work/project/otters/isoster"
+    - macbook_air: "/Users/mac/Dropbox/work/project/otters/isoster"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -25,7 +35,7 @@ confeti:
   intro: "Confeti: Contour Fitting for EllipTical Isophotes"
   github: "https://github.com/MassiveSeaOtters/confeti"
   local:
-    - "/Users/mac/Dropbox/work/project/otters/confeti"
+    - mackbook_air: "/Users/mac/Dropbox/work/project/otters/confeti"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -36,7 +46,7 @@ isophote_test:
   intro: "Confeti: Contour Fitting for EllipTical Isophotes"
   github: "https://github.com/MassiveSeaOtters/isophote_test"
   local:
-    - "/Users/mac/Dropbox/work/project/otters/isophote_test"
+    - macbook_air: "/Users/mac/Dropbox/work/project/otters/isophote_test"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -47,7 +57,7 @@ hsc_sandbox:
   intro: "Confeti: Contour Fitting for EllipTical Isophotes"
   github: "https://github.com/MassiveSeaOtters/hsc_sandbox"
   local:
-    - "/Users/mac/Dropbox/work/project/otters/hsc_sandbox"
+    - macbook_air: "/Users/mac/Dropbox/work/project/otters/hsc_sandbox"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -58,7 +68,7 @@ miso:
   intro: "Playing with the 3-D Shape Inference for Massive Galaxies"
   github: "https://github.com/MassiveSeaOtters/miso"
   local:
-    - "/Users/mac/Dropbox/work/project/otters/miso"
+    - macbook_air: "/Users/mac/Dropbox/work/project/otters/miso"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -69,7 +79,7 @@ star_forming_clusters:
   intro: "Organizing a small project to search for star-formation in galaxy clusters and analyze a special case - the spider"
   github: "https://github.com/MassiveSeaOtters/star_forming_clusters"
   local:
-    - "/Users/mac/Dropbox/work/project/otters/star_forming_clusters"
+    - macbook_air: "/Users/mac/Dropbox/work/project/otters/star_forming_clusters"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -80,7 +90,7 @@ acf:
   intro: "Awesome Cluster Finder"
   github: "https://github.com/MassiveSeaOtters/acf"
   local:
-    - "/Users/mac/Dropbox/work/project/otters/acf"
+    - macbook_air: "/Users/mac/Dropbox/work/project/otters/acf"
   related:
     - "projects/photometry"
     - "projects/hsc"
@@ -92,7 +102,7 @@ guangtou_vibe:
   intro: "Personal collection of notes about learning agentic coding."
   github: "https://github.com/dr-guangtou/guangtou_vibe"
   local:
-    - "/Users/mac/Dropbox/work/project/vibe/guangtou_vibe"
+    - macbook_air: "/Users/mac/Dropbox/work/project/vibe/guangtou_vibe"
   related:
     - "cards/agentic"
   status:
@@ -102,18 +112,30 @@ yuzhe:
   intro: "Personal research assistant."
   github: "https://github.com/dr-guangtou/yuzhe"
   local:
-    - "/Users/mac/Dropbox/work/project/vibe/yuzhe"
+    - macbook_air: "/Users/mac/Dropbox/work/project/vibe/yuzhe"
   related:
     - "cards/agentic"
   status:
     - under_development
+
+wensai:
+  intro: "Personal knowledge-base using Obsidian."
+  github: "https://github.com/dr-guangtou/wensai"
+  local:
+    - macbook_air: "/Users/mac/work/wensai"
+  related:
+    - "cards/agentic"
+  status:
+    - just_beginning
+  resume:
+    - claude: "d27e6c71-ecea-4cae-812e-cce6a1ad856b"
 
 # ------ MUST Related ------ #
 qingsong:
   intro: "Project Management Workflow and Repository for MUST"
   github: "https://github.com/MUST-Science-Collaboration/qingsong"
   local:
-    - "/Users/mac/Dropbox/work/project/vibe/qingsong"
+    - macbook_air: "/Users/mac/Dropbox/work/project/vibe/qingsong"
   related:
     - "must"
   status:
