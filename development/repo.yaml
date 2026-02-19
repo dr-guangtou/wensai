@@ -117,6 +117,8 @@ yuzhe:
     - "cards/agentic"
   status:
     - under_development
+  resume:
+    - codex: "019c7596-0793-7653-8bf5-bfdc0e84ae2f"
 
 wensai:
   intro: "Personal knowledge-base using Obsidian."
@@ -128,7 +130,7 @@ wensai:
   status:
     - just_beginning
   resume:
-    - claude: "d27e6c71-ecea-4cae-812e-cce6a1ad856b"
+    - claude: "cecd3c18-53ed-4933-ba96-945503169677"
 
 # ------ MUST Related ------ #
 qingsong:
