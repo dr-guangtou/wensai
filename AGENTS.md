@@ -52,6 +52,23 @@ tags:
 - Status of the project:
 	- For each Markdown note in the `projects` folder, include a tag indicating the project status: `under_design`, `early_development`, `finishing`, `published`, or `archived`.
 - If the title or section title contains a term from the `cards` folder, treat that term as a tag.
+- Note type — add a `documentation` tag for vault-level or cross-cutting reference notes (e.g., `README.md`, `AGENTS.md`, config guides). Use `vault` as the location tag for files at the vault root.
+
+## Vault-Root Documentation Notes
+
+Files like `README.md` live at the vault root and use the following minimum front matter:
+
+```yaml
+---
+date: YYYY-MM-DD
+tags:
+  - vault
+  - documentation
+---
+```
+
+- `vault`: location tag for root-level files.
+- `documentation`: note-type tag for reference/config documentation (as opposed to `journal`, `project`, or `paper` notes).
 
 ## Obsidian CLI
 

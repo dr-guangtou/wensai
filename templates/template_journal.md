@@ -6,6 +6,8 @@ tags:
 
 # {{date}}
 
+## Focus & TODOs
+
 ## Journal 
 
 ## Idea
