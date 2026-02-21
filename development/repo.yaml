@@ -30,6 +30,8 @@ isoster:
     - "projects/hsc"
     - "projects/massive"
   status: under_development
+  resume:
+    codex: "019c61df-52ff-7690-a73c-71a4cfa5b29d"
 
 confeti:
   intro: "Confeti: Contour Fitting for EllipTical Isophotes"

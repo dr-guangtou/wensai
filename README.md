@@ -13,32 +13,33 @@ Song Huang's Obsidian vault for daily research journaling, scientific literature
 
 ## Directory Structure
 
-| Path | Type | Purpose |
-|------|------|---------|
-| `AGENTS.md` | Config | Vault-wide guidelines for AI agents. `CLAUDE.md` is a symlink to this file. |
-| `README.md` | Config | This file — vault overview and tooling reference. |
-| `templates/` | Config | Obsidian note templates (front-matter + section scaffolds). |
-| `development/` | Tracking | Metadata and dev journals for all active code repositories. |
-| `development/repo.yaml` | Config | Central registry of every active repo (paths, GitHub URLs, status, agent session IDs). |
-| `development/[REPO]/` | Journal | Per-repo development journals written by AI coding agents. |
-| `journal/` | Journal | Daily research journal. |
-| `journal/[YYYY]/[YYYY-MM-DD].md` | Journal | One file per day with Focus, Journal, Idea, and TIL sections. |
-| `papers/` | Reference | Notes on individual publications. |
-| `papers/arxiv/` | Reference | Daily arXiv digest notes synced from `yuzhe`. |
-| `papers/extragalactic/` | Reference | Curated extragalactic paper notes. |
-| `projects/` | Project | Research project notes, organised by topic. |
-| `projects/massive/` | Project | Low-redshift massive galaxy analysis. |
-| `projects/hsc/` | Project | HSC survey data analysis. |
-| `projects/desi/` | Project | DESI data analysis. |
-| `projects/photometry/` | Project | Galaxy photometry and modelling tools. |
-| `must/` | Project | MUST telescope science and instrumentation. |
-| `must/science/` | Project | MUST scientific organisation notes. |
-| `must/focalplane/` | Project | Focal plane system notes. |
-| `must/spectrograph/` | Project | Spectrograph system notes. |
-| `cards/` | Card | Searchable atomic-knowledge cards. |
-| `cards/astro/` | Card | Astronomy concepts and references. |
-| `cards/vibe/` | Card | AI and agentic development notes. |
-| `clippings/` | Clipping | Web pages saved via the Obsidian web clipper. |
+| Path                             | Type      | Purpose                                                                                |
+| -------------------------------- | --------- | -------------------------------------------------------------------------------------- |
+| `AGENTS.md`                      | Config    | Vault-wide guidelines for AI agents. `CLAUDE.md` is a symlink to this file.            |
+| `README.md`                      | Config    | This file — vault overview and tooling reference.                                      |
+| `templates/`                     | Config    | Obsidian note templates (front-matter + section scaffolds).                            |
+| `development/`                   | Tracking  | Metadata and dev journals for all active code repositories.                            |
+| `development/repo.yaml`          | Config    | Central registry of every active repo (paths, GitHub URLs, status, agent session IDs). |
+| `development/[REPO]/`            | Journal   | Per-repo development journals written by AI coding agents.                             |
+| `journal/`                       | Journal   | Daily research journal.                                                                |
+| `journal/[YYYY]/[YYYY-MM-DD].md` | Journal   | One file per day with Focus, Journal, Idea, and TIL sections.                          |
+| `journal/agentic_daily`          | Journal   | Daily digest of Agentic AI and LLM related news                                        |
+| `papers/`                        | Reference | Notes on individual publications.                                                      |
+| `papers/arxiv/`                  | Reference | Daily arXiv digest notes synced from `yuzhe`.                                          |
+| `papers/extragalactic/`          | Reference | Curated extragalactic paper notes.                                                     |
+| `projects/`                      | Project   | Research project notes, organised by topic.                                            |
+| `projects/massive/`              | Project   | Low-redshift massive galaxy analysis.                                                  |
+| `projects/hsc/`                  | Project   | HSC survey data analysis.                                                              |
+| `projects/desi/`                 | Project   | DESI data analysis.                                                                    |
+| `projects/photometry/`           | Project   | Galaxy photometry and modelling tools.                                                 |
+| `must/`                          | Project   | MUST telescope science and instrumentation.                                            |
+| `must/science/`                  | Project   | MUST scientific organisation notes.                                                    |
+| `must/focalplane/`               | Project   | Focal plane system notes.                                                              |
+| `must/spectrograph/`             | Project   | Spectrograph system notes.                                                             |
+| `cards/`                         | Card      | Searchable atomic-knowledge cards.                                                     |
+| `cards/astro/`                   | Card      | Astronomy concepts and references.                                                     |
+| `cards/vibe/`                    | Card      | AI and agentic development notes.                                                      |
+| `clippings/`                     | Clipping  | Web pages saved via the Obsidian web clipper.                                          |
 
 ---
 
