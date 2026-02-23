@@ -5,9 +5,6 @@ branch: main
 tags:
   - journal
   - lamian
-  - phase-1
-  - phase-1-5
-  - phase-1-8
 ---
 
 ## Progress
