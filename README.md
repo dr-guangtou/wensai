@@ -36,9 +36,9 @@ Song Huang's Obsidian vault for daily research journaling, scientific literature
 | `must/science/`                  | Project   | MUST scientific organisation notes.                                                    |
 | `must/focalplane/`               | Project   | Focal plane system notes.                                                              |
 | `must/spectrograph/`             | Project   | Spectrograph system notes.                                                             |
-| `cards/`                         | Card      | Searchable atomic-knowledge cards.                                                     |
-| `cards/astro/`                   | Card      | Astronomy concepts and references.                                                     |
-| `cards/vibe/`                    | Card      | AI and agentic development notes.                                                      |
+| `investigation/`                 | Card      | Searchable atomic-knowledge cards.                                                     |
+| `investigation/astro/`           | Card      | Astronomy concepts and references.                                                     |
+| `investigation/agentic/`         | Card      | AI and agentic development notes.                                                      |
 | `clippings/`                     | Clipping  | Web pages saved via the Obsidian web clipper.                                          |
 
 ---
