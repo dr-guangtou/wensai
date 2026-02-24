@@ -32,7 +32,7 @@ isoster:
   status: under_development
   resume:
     codex: "019c801e-916a-7b40-a4c2-b93435cb78d1"
-    claude: "260bb708-fdec-4c79-a064-b6e8edabdc77"
+    claude: "f7a0f536-dfcc-4494-8fb7-6b5f0477d96e"
 
 confeti:
   intro: "Confeti: Contour Fitting for EllipTical Isophotes"
@@ -121,7 +121,7 @@ yuzhe:
   status:
     - under_development
   resume:
-    - codex: "(project4) - 019c8b53-b659-7dc1-85d5-0403ddab7b2d"
+    - codex: "(project4) - 019c8ec4-2c4a-7f70-be4b-2e37728e272e"
 
 wensai:
   intro: "Personal knowledge-base using Obsidian."
