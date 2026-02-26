@@ -32,7 +32,7 @@ isoster:
   status: under_development
   resume:
     codex: "019c801e-916a-7b40-a4c2-b93435cb78d1"
-    claude: "f7a0f536-dfcc-4494-8fb7-6b5f0477d96e"
+    claude: "3fd2cb00-c816-4938-8a58-51326a330b64"
 
 confeti:
   intro: "Confeti: Contour Fitting for EllipTical Isophotes"
@@ -121,7 +121,8 @@ yuzhe:
   status:
     - under_development
   resume:
-    - codex: "(project4) - 019c8ec4-2c4a-7f70-be4b-2e37728e272e"
+    - codex: "(project4; macbook_air) - 019c94a9-39d7-7750-94b2-c90f38c76ab0"
+    - codex: "(project1; mac_studio) - 019c9890-5794-79e0-a208-a0fc019d70b2"
 
 wensai:
   intro: "Personal knowledge-base using Obsidian."
@@ -145,3 +146,5 @@ qingsong:
     - "must"
   status:
     - just_beginning
+  resume:
+    - gemini: "(macbook_pro) f6206992-18fd-4071-810b-581a0116d814"
