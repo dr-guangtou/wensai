@@ -28,7 +28,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
 # 3. Copy public key
-pbcopy < ~/.ssh/id_ed255.pub
+pbcopy < ~/.ssh/id_ed25519.pub
 
 # 4. Paste into GitHub → Settings → SSH Keys → New SSH Key
 

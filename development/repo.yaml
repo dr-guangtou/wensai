@@ -31,8 +31,8 @@ isoster:
     - "projects/massive"
   status: under_development
   resume:
-    codex: "019c801e-916a-7b40-a4c2-b93435cb78d1"
-    claude: "3fd2cb00-c816-4938-8a58-51326a330b64"
+    codex: "(macbook_air) 019c801e-916a-7b40-a4c2-b93435cb78d1"
+    claude: "(macbook_air) e3e00676-0309-4dd0-b0de-8167cf4df635"
 
 confeti:
   intro: "Confeti: Contour Fitting for EllipTical Isophotes"
