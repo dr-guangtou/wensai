@@ -16,6 +16,6 @@ tags:
 
 ### Astro:
 
-### Coding:
+### AI & Coding
 
 ## Dev Snapshot
