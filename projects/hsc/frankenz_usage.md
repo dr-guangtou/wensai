@@ -1,17 +1,15 @@
 ---
-title: "Frankenz Usage Guide"
 date: 2026-02-27
-version: 0.3.5
-author: Song Huang (documentation), Joshua S. Speagle (code)
+title: Frankenz Usage Guide
+author: "Song Huang (documentation), Joshua S. Speagle (code)"
 tags:
-  - frankenz
-  - photo-z
-  - photometric-redshift
-  - template-fitting
-  - bayesian
+  - project
+  - dev/frankenz
+  - astro/photometry
+  - project/hsc
 status: draft
+version: 0.3.5
 ---
-
 # Frankenz Usage Guide
 
 ## Overview

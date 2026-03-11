@@ -1,21 +1,21 @@
 ---
-title: "Frankenz Code Review"
 date: 2026-02-27
+title: Frankenz Code Review
+tags:
+  - project
+  - dev/frankenz
+  - dev/tool
+  - astro/photometry
+  - project/hsc
+status: actionable
 version: 0.3.5
 reviewer: Song Huang (with Claude Code)
-tags:
-  - frankenz
-  - code-review
-  - bugs
-  - photo-z
-status: actionable
 severity_levels:
   - CRITICAL (will crash or produce silently wrong results)
   - HIGH (likely to cause issues in production use)
   - MEDIUM (correctness or usability issue under specific conditions)
-  - LOW (cosmetic, style, or minor maintainability)
+  - "LOW (cosmetic, style, or minor maintainability)"
 ---
-
 # Frankenz Code Review
 
 ## Summary
