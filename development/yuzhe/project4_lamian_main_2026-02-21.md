@@ -3,10 +3,9 @@ date: 2026-02-21
 repo: yuzhe
 branch: main
 tags:
-  - journal
-  - lamian
+  - development
+  - dev/tool
 ---
-
 ## Progress
 
 - `f62158b`: implemented `search` command with typed filters and integration tests.

@@ -3,11 +3,10 @@ date: 2026-02-21
 repo: isoster
 branch: main
 tags:
-  - journal
   - development
+topics:
   - huang2013
 ---
-
 ## Progress
 
 - Committed `d9e7a67`: added post-run negative-error sanity checks in `isoster.fit_image` and updated driver unit tests.

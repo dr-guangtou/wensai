@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - Re-OCR Your Digitised Collections for ~$0.002/Page"
+title: Agentic AI - Re-OCR Your Digitised Collections for ~$0.002/Page
 source: "https://danielvanstrien.xyz/posts/2026/re-ocr-collections/"
 author:
   - "[[Daniel van Strien]]"
+tags:
+  - clippings
 published:
 created: 2026-02-21
-description: "A guide to re-processing digitised collections with open-source VLM-based OCR models."
-tags:
-  - "clippings"
+description: A guide to re-processing digitised collections with open-source VLM-based OCR models.
 ---
 ## Why re-OCR?
 

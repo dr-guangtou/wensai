@@ -3,13 +3,11 @@ date: 2026-03-01
 repo: isophote_test
 branch: main
 tags:
-  - journal
+  - development
+  - project/hsc
+topics:
   - huang2013
-  - hsc
-  - production
-  - testing
 ---
-
 ## Progress
 
 - Merged the repo-cleanup work to `main` as `e197a77 Reorganize inputs and consolidate repo documentation`.

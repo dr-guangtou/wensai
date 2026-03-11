@@ -2,9 +2,8 @@
 date: 2026-02-28
 tags:
   - development
-  - development/frankenz
+  - dev/frankenz
 ---
-
 # frankenz — main — 2026-02-28
 
 ## Progress

@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - Frontier model training methodologies"
+title: Agentic AI - Frontier model training methodologies
 source: "https://djdumpling.github.io/2026/01/31/frontier_training.html"
 author:
   - "[[Alex Wa]]"
+tags:
+  - clippings
 published: 2026-01-31
 created: 2026-02-26
 description: "How do labs train a frontier, multi-billion parameter model? We look towards seven open-weight frontier models: Hugging Face’s SmolLM3, Prime Intellect’s Intellect 3, Nous Research’s Hermes 4, OpenAI’s gpt-oss-120b, Moonshot’s Kimi K2, DeepSeek’s DeepSeek-R1, and Arcee’s Trinity series. This blog is an attempt at distilling the techniques, motivations, and considerations used to train their models with an emphasis on training methodology over infrastructure."
-tags:
-  - "clippings"
 ---
 How do labs train a frontier, multi-billion parameter model? We look towards seven open-weight frontier models: Hugging Face’s [SmolLM3](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook), Prime Intellect’s [Intellect 3](https://arxiv.org/abs/2512.16144), Nous Research’s [Hermes 4](https://arxiv.org/abs/2508.18255), OpenAI’s [gpt-oss-120b](https://arxiv.org/pdf/2508.10925), Moonshot’s [Kimi K2](https://arxiv.org/pdf/2507.20534), DeepSeek’s [DeepSeek-R1](https://arxiv.org/pdf/2501.12948), and Arcee’s [Trinity series](https://github.com/arcee-ai/trinity-large-tech-report/blob/main/Arcee%20Trinity%20Large.pdf). This blog is an attempt at distilling the techniques, motivations, and considerations used to train their models with an emphasis on training methodology over infrastructure.
 

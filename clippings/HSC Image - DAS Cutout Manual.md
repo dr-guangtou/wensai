@@ -1,14 +1,14 @@
 ---
-title: "HSC Image - DAS Cutout Manual"
+title: HSC Image - DAS Cutout Manual
 source: "https://hscdata.mtk.nao.ac.jp/das_quarry/dr4/manual.html#list-to-upload"
 author:
   - "[[NAOJ]]"
+tags:
+  - clippings
+  - project/hsc
 published:
 created: 2026-02-28
 description:
-tags:
-  - "hsc"
-  - "subaru"
 ---
 ## DAS Cutout manual
 

@@ -2,9 +2,8 @@
 date: 2026-02-25
 tags:
   - development
-  - development/isoster
+  - dev/isoster
 ---
-
 # isoster — feat/isofit-mode-comparison — 2026-02-25
 
 ## Progress

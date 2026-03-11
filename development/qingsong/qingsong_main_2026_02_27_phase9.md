@@ -2,15 +2,11 @@
 date: 2026-02-27
 repo: qingsong
 branch: main
-phase: Phase 9
 tags:
-  - journal
-  - collaboration
-  - search
-  - fts5
-  - ux
+  - development
+  - dev/tool
+phase: Phase 9
 ---
-
 ## Progress
 
 - Completed Phase 9: Search & Collaboration, transforming Qingsong into a team-oriented platform for design coordination and advanced discovery.

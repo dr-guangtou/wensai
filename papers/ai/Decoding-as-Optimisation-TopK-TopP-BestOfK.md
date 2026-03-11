@@ -5,25 +5,20 @@ authors:
   - Rasul Tutunov
   - Matthieu Zimmer
   - Haitham Bou-Ammar
+source: "arXiv:2602.18292v1"
+tags:
+  - paper
+  - ai/llm
+  - ai/deep-learning
 affiliations:
   - Huawei Noah's Ark Lab
   - UCL AI Centre
-source: arXiv:2602.18292v1
 date_published: 2026-02-13
 date_read: 2026-02-24
 type: paper_summary
 category: ai
-venue: Preprint (Machine Learning, NLP)
-tags:
-  - llm-decoding
-  - optimization
-  - sampling
-  - top-k
-  - top-p
-  - nucleus-sampling
-  - convex-optimization
+venue: "Preprint (Machine Learning, NLP)"
 ---
-
 # Decoding as Optimisation on the Probability Simplex
 
 ## Paper Metadata

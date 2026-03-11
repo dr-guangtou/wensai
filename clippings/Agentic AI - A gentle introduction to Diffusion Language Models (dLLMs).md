@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI -A gentle introduction to Diffusion Language Models (dLLMs)"
+title: Agentic AI -A gentle introduction to Diffusion Language Models (dLLMs)
 source: "https://x.com/neural_avb/status/2026716991529316816"
 author:
   - "[[@neural_avb]]"
+tags:
+  - clippings
 published: 2026-02-25
 created: 2026-02-26
 description: "Assistant Prof. in Astronomy at Tsinghua University, Beijing. @drguangtou@masodon.onlineLove all galaxies, study the big and small ones."
-tags:
-  - "clippings"
 ---
 Let me just start off by stating the obvious: Diffusion Language Models are **incredi-cool** tech. This article will explain some of the concepts that you must know. We will be mainly looking at a couple of Inception Labs ( [@\_inception\_ai](https://x.com/@_inception_ai) ) papers and the LLada family of models to motivate this discussion.
 

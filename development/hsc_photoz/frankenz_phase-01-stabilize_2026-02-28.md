@@ -2,11 +2,9 @@
 date: 2026-02-28
 tags:
   - development
-  - development/hsc_photoz
-  - frankenz
-  - phase-01
+  - dev/hsc_photoz
+  - dev/frankenz
 ---
-
 # frankenz — phase-01/stabilize — 2026-02-28
 
 ## Progress

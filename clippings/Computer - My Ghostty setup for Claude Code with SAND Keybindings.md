@@ -1,14 +1,13 @@
 ---
 title: Comnputer - My Ghostty setup for Claude Code with SAND Keybindings
-source: https://x.com/dani_avila7/status/2023151176758268349
+source: "https://x.com/dani_avila7/status/2023151176758268349"
 author:
   - "[[Daniel San]]"
-published: 2026-02-16
-created: 2026-02-20
-description: Assistant Prof. in Astronomy at Tsinghua University, Beijing. @drguangtou@masodon.onlineLove all galaxies, study the big and small ones.
 tags:
   - clippings
-  - computer
+published: 2026-02-16
+created: 2026-02-20
+description: "Assistant Prof. in Astronomy at Tsinghua University, Beijing. @drguangtou@masodon.onlineLove all galaxies, study the big and small ones."
 ---
 After months using Claude Code daily I realized I was barely using VSCode or Cursor, just the terminal and git panel, everything else Claude Code handled.
 

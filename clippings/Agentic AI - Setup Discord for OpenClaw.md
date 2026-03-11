@@ -1,15 +1,15 @@
 ---
-title: "Agentic AI - Setup Discord for OpenClaw"
+title: Agentic AI - Setup Discord for OpenClaw
 source: "https://docs.openclaw.ai/channels/discord#ask-your-agent-5"
 author:
   - "[[OpenClaw]]"
+tags:
+  - clippings
+  - ai/agent
+  - dev/tool
 published:
 created: 2026-02-20
 description:
-tags:
-  - "clippings"
-  - "agentic"
-  - "openclaw"
 ---
 ## Discord (Bot API)
 

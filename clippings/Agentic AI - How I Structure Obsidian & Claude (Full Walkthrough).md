@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - How I Structure Obsidian & Claude (Full Walkthrough)"
+title: Agentic AI - How I Structure Obsidian & Claude (Full Walkthrough)
 source: "https://x.com/jameesy/status/2026628809424781787"
 author:
   - "[[Unknown]]"
+tags:
+  - clippings
 published: 2026-02-25
 created: 2026-02-26
 description:
-tags:
-  - "clippings"
 ---
 I will run through how I structure my [@obsdmd](https://x.com/@obsdmd) vault, as well as the other files outside of Obsidian that I use [@claudeai](https://x.com/@claudeai) for. **My goal is to make this guide as actionable for yourself as possible.** I have held off for writing this for some time for a couple of reasons.
 

@@ -3,9 +3,9 @@ date: 2026-02-20
 repo: isoster
 branch: main
 tags:
-  - journal
+  - development
+topics:
   - huang2013
-  - qa
 ---
 ## Progress
 

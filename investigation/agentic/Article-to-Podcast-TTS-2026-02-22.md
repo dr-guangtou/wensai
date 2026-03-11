@@ -1,14 +1,17 @@
 ---
-title: "Article-to-Podcast / Text-to-Speech Solutions"
 date: 2026-02-22
-topic: "Text-to-Speech & Podcast Generation"
-category: "AI/ML Research"
-tags: ["tts", "podcast", "elevenlabs", "voicebox", "latex", "astronomy", "open-source"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Article-to-Podcast / Text-to-Speech Solutions
+source: Yuzhe Research
+tags:
+  - investigation
+  - ai/agent
+  - astro/writing
+  - astro/galaxy
+status: complete
+topic: Text-to-Speech & Podcast Generation
+category: AI/ML Research
+type: investigation
 ---
-
 # Article-to-Podcast / Text-to-Speech Solutions Investigation Report
 
 **Research Date:** 2026-02-22  

@@ -1,28 +1,22 @@
 ---
-title: "On Surprising Effectiveness of Masking Updates in Adaptive Optimizers"
+title: On Surprising Effectiveness of Masking Updates in Adaptive Optimizers
 authors:
   - Taejong Joo
   - Wenhan Xia
   - Cheolmin Kim
   - Ming Zhang
   - Eugene Ie
-source: arXiv:2602.15322v1
+source: "arXiv:2602.15322v1"
+tags:
+  - paper
+  - ai/deep-learning
+  - ai/llm
 date_published: 2026-02-17
 date_read: 2026-02-21
 type: paper_summary
 category: ai
 venue: Preprint (Machine Learning)
-tags:
-  - optimization
-  - llm-training
-  - adaptive-optimizers
-  - rmsprop
-  - adam
-  - muon
-  - regularization
-  - transformers
 ---
-
 # On Surprising Effectiveness of Masking Updates in Adaptive Optimizers
 
 ## Paper Metadata

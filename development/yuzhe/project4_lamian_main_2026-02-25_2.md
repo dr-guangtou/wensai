@@ -3,12 +3,9 @@ date: 2026-02-25
 repo: yuzhe
 branch: main
 tags:
-  - journal
-  - phase-2-1
-  - phase-2-2
-  - lamian
+  - development
+  - dev/tool
 ---
-
 ## Progress
 
 - Closed Phase 2.1 GUI mutation expansion (`P4-511`..`P4-518`) in `project4/lamian/src/gui.rs` and synchronized trackers in `project4/` and `project4/lamian/docs/`.

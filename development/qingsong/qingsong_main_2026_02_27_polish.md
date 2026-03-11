@@ -2,14 +2,10 @@
 date: 2026-02-27
 repo: qingsong
 branch: main
-phase: Phase 6 Post-Polish
 tags:
-  - journal
-  - ui
-  - bugfix
-  - docs
+  - development
+phase: Phase 6 Post-Polish
 ---
-
 ## Progress
 
 - Completed post-implementation polish for Phase 6 WebUI, ensuring full compatibility with recent Streamlit API updates.

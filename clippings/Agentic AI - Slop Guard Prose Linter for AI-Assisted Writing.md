@@ -3,11 +3,11 @@ title: "Agentic AI - Slop Guard: Prose Linter for AI-Assisted Writing"
 source: "https://eric-tramel.github.io/blog/2026-02-18-slop-guard/"
 author:
   - "[[Eric Tremal]]"
+tags:
+  - clippings
 published: 2026-02-18
 created: 2026-02-21
 description: "A rule-based prose linter that catches formulaic writing patterns LLMs fall into. No LLM judge, no API calls. Just compiled regex and an afternoon of calibration against human reference texts."
-tags:
-  - "clippings"
 ---
 AI-generated text falls into patterns. Not errors, but habits: “delve” instead of “dig,” three-beat cadences on every list, bold headers followed by explanation paragraphs, the same sentence structure repeated ten times in a row. Any one of these is fine. A human writer might use any of them. The problem is density and repetition. When the same handful of constructions dominate 500 words of prose, the writing feels flat and formulaic.
 

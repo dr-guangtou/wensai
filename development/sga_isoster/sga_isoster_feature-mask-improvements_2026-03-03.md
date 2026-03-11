@@ -2,9 +2,8 @@
 date: 2026-03-03
 tags:
   - development
-  - development/sga_isoster
+  - dev/sga_isoster
 ---
-
 # sga_isoster — feature/mask-improvements — 2026-03-03
 
 ## Progress

@@ -2,12 +2,11 @@
 date: 2026-02-27
 tags:
   - development
-  - development/hsc_photoz
-  - frankenz
-  - photo-z
-  - code-review
+  - dev/hsc_photoz
+  - dev/frankenz
+  - astro/photometry
+  - dev/tool
 ---
-
 # frankenz — master — 2026-02-27
 
 ## Progress

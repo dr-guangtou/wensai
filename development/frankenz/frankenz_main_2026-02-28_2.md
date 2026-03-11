@@ -2,9 +2,8 @@
 date: 2026-02-28
 tags:
   - development
-  - development/frankenz
+  - dev/frankenz
 ---
-
 # frankenz — Phases 01+02 Complete — 2026-02-28
 
 ## Overview

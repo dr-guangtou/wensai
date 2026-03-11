@@ -2,22 +2,19 @@
 title: "Neural Scaling Laws Trilogy: Representation, Transformation, and Training"
 authors:
   - Yizhou Liu
+source: Blog post draft (liuyz0.github.io/blog/2026/NSLT/)
+tags:
+  - paper
+  - ai/llm
+  - ai/deep-learning
 affiliations:
   - MIT
-source: Blog post draft (liuyz0.github.io/blog/2026/NSLT/)
 date_published: 2026
 date_read: 2026-03-01
 type: paper_summary
 category: ai
 venue: Blog post (based on 3 academic papers)
-tags:
-  - scaling-laws
-  - llm-theory
-  - superposition
-  - power-laws
-  - chinchilla
 ---
-
 # Neural Scaling Laws Trilogy
 
 ## Paper Metadata

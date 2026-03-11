@@ -2,9 +2,8 @@
 date: 2026-02-23
 tags:
   - development
-  - development/isoster
+  - dev/isoster
 ---
-
 # isoster — 24-Hour Development Review — 2026-02-22/23
 
 ## Executive Summary

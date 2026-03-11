@@ -1,14 +1,17 @@
 ---
-title: "Avro Data Format - Quick Summary"
 date: 2026-02-25
-topic: "Data Formats & Serialization"
-category: "Data Engineering"
-tags: ["avro", "serialization", "big-data", "data-format", "schema", "apache"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Avro Data Format - Quick Summary
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+topics:
+  - apache
+status: complete
+topic: Data Formats & Serialization
+category: Data Engineering
+type: investigation
 ---
-
 # Avro Data Format - Quick Summary
 
 ---

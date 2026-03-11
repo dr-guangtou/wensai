@@ -14,6 +14,14 @@ authors:
   - Libo Qin
   - Wanxiang Che
   - Wenhao Huang
+source: "arXiv:2601.06002v2"
+tags:
+  - paper
+  - ai/llm
+  - ai/deep-learning
+  - dev/tool
+topics:
+  - molecular-structure
 affiliations:
   - ByteDance Seed China
   - Harbin Institute of Technology
@@ -22,23 +30,12 @@ affiliations:
   - Nanjing University
   - M-A-P
   - Central South University
-source: arXiv:2601.06002v2
 date_published: 2026-01-09
 date_read: 2026-02-22
 type: paper_summary
 category: ai
 venue: Preprint (Computation and Language)
-tags:
-  - chain-of-thought
-  - reasoning
-  - llm
-  - deep-learning
-  - molecular-structure
-  - topology
-  - distillation
-  - fine-tuning
 ---
-
 # The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning
 
 ## Paper Metadata

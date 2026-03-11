@@ -3,11 +3,8 @@ date: 2026-02-19
 repo: project1
 branch: feat/output-dir-option
 tags:
-  - journal
-  - project1
-  - reliability
+  - development
 ---
-
 ## Progress
 
 - Completed `96473b4`: fixed `src/get_llm_score.py` threshold schema usage (`llm_scoring.tier_thresholds`) and updated digest naming behavior/tests.

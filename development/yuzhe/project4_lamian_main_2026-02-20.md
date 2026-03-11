@@ -3,11 +3,9 @@ date: 2026-02-20
 repo: yuzhe
 branch: main
 tags:
-  - journal
-  - project4
-  - lamian
+  - development
+  - dev/tool
 ---
-
 ## Progress
 
 - Merged `feat/lamian-inject-core-step1` into `main` with shared `inject` core and real-fixture integration tests (`d4fd78d`).

@@ -2,9 +2,8 @@
 date: 2026-03-02
 tags:
   - development
-  - development/sga_isoster
+  - dev/sga_isoster
 ---
-
 # sga_isoster — Step 2: Image Download Pipeline — 2026-03-02
 
 ## Progress

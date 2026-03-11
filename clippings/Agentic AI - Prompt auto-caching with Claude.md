@@ -1,15 +1,14 @@
 ---
 title: Agentic AI - Prompt auto-caching with Claude
-source: https://x.com/RLanceMartin/status/2024573404888911886
+source: "https://x.com/RLanceMartin/status/2024573404888911886"
 author:
   - "[[Lance Martin]]"
+tags:
+  - clippings
+  - ai/agent
 published: 2025-12-25
 created: 2026-02-20
 description:
-tags:
-  - clippings
-  - agentic
-  - twitter
 ---
 TL;DR: Prompt caching is a great way to save cost + latency when using Claude. Input tokens that use the prompt cache [are 10% the cost](https://platform.claude.com/docs/en/about-claude/pricing) of non-cached tokens. Auto-caching was just added to the API, which makes it easier to cache your prompt with a single cache\_control parameter in the API request (docs [here](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)). Also, check out [@trq212](https://x.com/@trq212)'s [deep dive](https://x.com/trq212/status/2024574133011673516) on Claude Code's use of prompt caching and useful tips for cache-friendly prompt design.
 

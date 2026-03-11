@@ -1,14 +1,16 @@
 ---
-title: "Obsidian Bases Investigation Report"
 date: 2026-02-23
-topic: "Obsidian Bases for Vault Organization"
-category: "Productivity Tools"
-tags: ["obsidian", "bases", "vault-organization", "pkm", "database", "yaml"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Obsidian Bases Investigation Report
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/wensai
+  - dev/tool
+status: complete
+topic: Obsidian Bases for Vault Organization
+category: Productivity Tools
+type: investigation
 ---
-
 # Obsidian Bases Investigation Report
 
 **Research Date:** 2026-02-23  

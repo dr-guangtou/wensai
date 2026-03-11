@@ -1,14 +1,16 @@
 ---
-title: "notebooklm-py Deep Dive"
 date: 2026-02-21
-topic: "NotebookLM Python API"
-category: "AI Tools & APIs"
-tags: ["notebooklm", "google", "api", "python", "claude-code", "research"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: notebooklm-py Deep Dive
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+  - ai/agent
+status: complete
+topic: NotebookLM Python API
+category: AI Tools & APIs
+type: investigation
 ---
-
 # notebooklm-py Deep Dive Investigation Report
 
 **Research Date:** 2026-02-21  

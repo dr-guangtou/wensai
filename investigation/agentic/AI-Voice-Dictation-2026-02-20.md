@@ -1,14 +1,15 @@
 ---
-title: "AI Voice Dictation - Comprehensive Software Landscape"
 date: 2026-02-20
-topic: "AI Voice Dictation Apps"
-category: "Productivity Tools"
-tags: ["voice-dictation", "ai-typing", "speech-to-text", "elevenlabs", "whisper", "superwhisper", "talon"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: AI Voice Dictation - Comprehensive Software Landscape
+source: Yuzhe Research
+tags:
+  - investigation
+  - ai/agent
+status: complete
+topic: AI Voice Dictation Apps
+category: Productivity Tools
+type: investigation
 ---
-
 # AI Voice Dictation - Comprehensive Software Landscape Report
 
 **Research Date:** 2026-02-20  

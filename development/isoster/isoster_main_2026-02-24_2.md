@@ -2,9 +2,8 @@
 date: 2026-02-24
 tags:
   - development
-  - development/isoster
+  - dev/isoster
 ---
-
 # isoster — Higher-Order Harmonics: ISOFIT & Model Reconstruction — 2026-02-24
 
 This entry covers four sessions of intensive work on the `feat/true-isofit-harmonics` branch (now merged to main), spanning roughly 24 hours. The focus was implementing true ISOFIT simultaneous harmonic fitting (Ciambur 2015) and fixing two bugs in the model reconstruction pipeline related to higher-order harmonics.

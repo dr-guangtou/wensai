@@ -1,15 +1,20 @@
 ---
-title: "macOS Voice Typing/Dictation Software Investigation Report"
 date: 2026-02-20
-topic: "Voice Dictation & Speech-to-Text"
-category: "Productivity Tools"
-tags: ["voice-typing", "dictation", "whisper", "macos", "speech-to-text", "chinese-support", "offline"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
-focus_areas: ["macos", "offline", "bilingual", "coding"]
+title: macOS Voice Typing/Dictation Software Investigation Report
+source: Yuzhe Research
+tags:
+  - investigation
+  - ai/agent
+status: complete
+topic: Voice Dictation & Speech-to-Text
+category: Productivity Tools
+type: investigation
+focus_areas:
+  - macos
+  - offline
+  - bilingual
+  - coding
 ---
-
 # macOS Voice Typing/Dictation Software Investigation Report
 
 **Research Date:** 2026-02-20  

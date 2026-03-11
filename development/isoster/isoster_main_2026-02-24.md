@@ -2,9 +2,8 @@
 date: 2026-02-24
 tags:
   - development
-  - development/isoster
+  - dev/isoster
 ---
-
 # isoster — main / feat/legacysurvey-harmonics-example — 2026-02-24
 
 ## Progress

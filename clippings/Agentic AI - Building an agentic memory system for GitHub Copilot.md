@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - Building an agentic memory system for GitHub Copilot"
+title: Agentic AI - Building an agentic memory system for GitHub Copilot
 source: "https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/"
 author:
   - "[[Tiferet Gazit]]"
+tags:
+  - clippings
 published: 2026-01-16
 created: 2026-02-23
 description: "Copilot’s cross-agent memory system lets agents learn and improve across your development workflow, starting with coding agent and code review."
-tags:
-  - "clippings"
 ---
 Our vision is to evolve [GitHub Copilot](https://github.com/features/copilot?utm_source=blog-copilot-memory&utm_medium=blog&utm_campaign=dec25postuniverse) into an ecosystem of agents that collaborate across the entire development lifecycle from coding and code review to security, debugging, deployment, and maintenance. To unlock the full potential of multi-agent workflows, we need to move beyond isolated interactions—that start from scratch each session—and toward a cumulative knowledge base that grows with every use.
 

@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - How I Think About Codex"
+title: Agentic AI - How I Think About Codex
 source: "https://x.com/gabrielchua/status/2025017553442201807"
 author:
   - "[[Gabriel Chua]]"
+tags:
+  - clippings
 published: 2026-02-10
 created: 2026-02-22
 description:
-tags:
-  - "clippings"
 ---
 When people say “Codex,” they don’t always mean the same thing. Sometimes they mean the model. Sometimes the app. Sometimes the agent.
 

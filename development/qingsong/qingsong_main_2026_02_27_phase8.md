@@ -2,15 +2,11 @@
 date: 2026-02-27
 repo: qingsong
 branch: main
-phase: Phase 8
 tags:
-  - journal
-  - automation
-  - export
-  - pdf
-  - devops
+  - development
+  - dev/tool
+phase: Phase 8
 ---
-
 ## Progress
 
 - Completed Phase 8: Automated Compliance & Export, enabling the generation of formal, review-ready project documentation directly from the requirements source.

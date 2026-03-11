@@ -3,12 +3,9 @@ date: 2026-02-25
 repo: yuzhe
 branch: main
 tags:
-  - journal
-  - gui
-  - phase-2
-  - lamian
+  - development
+  - dev/tool
 ---
-
 ## Progress
 
 - Locked the Phase 2.0 GUI stack to `egui/eframe` and documented architecture boundaries that require CLI and GUI to reuse the same shared Rust core services.

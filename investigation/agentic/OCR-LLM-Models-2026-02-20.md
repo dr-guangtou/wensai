@@ -1,15 +1,23 @@
 ---
-title: "OCR and AI Models Investigation Report"
 date: 2026-02-20
-topic: "OCR & Vision-Language Models"
-category: "AI/ML Research"
-tags: ["ocr", "vlm", "ai-models", "qwen", "mac-deployment", "chinese-support", "open-source"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
-focus_areas: ["efficiency", "cost", "mac-deployment", "chinese-support"]
+title: OCR and AI Models Investigation Report
+source: Yuzhe Research
+tags:
+  - investigation
+  - ai/vision
+  - ai/llm
+topics:
+  - ai-models
+status: complete
+topic: OCR & Vision-Language Models
+category: AI/ML Research
+type: investigation
+focus_areas:
+  - efficiency
+  - cost
+  - mac-deployment
+  - chinese-support
 ---
-
 # OCR and AI Models Investigation Report
 
 **Research Date:** 2026-02-20  

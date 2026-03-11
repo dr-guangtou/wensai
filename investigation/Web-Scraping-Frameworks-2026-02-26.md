@@ -1,14 +1,17 @@
 ---
-title: "Web Scraping Frameworks for Agentic Coding"
 date: 2026-02-26
-topic: "Web Scraping & Data Extraction"
-category: "AI/ML Engineering"
-tags: ["web-scraping", "firecrawl", "scrapling", "agentic-coding", "llm", "data-extraction"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Web Scraping Frameworks for Agentic Coding
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+  - ai/agent
+  - ai/llm
+status: complete
+topic: Web Scraping & Data Extraction
+category: AI/ML Engineering
+type: investigation
 ---
-
 # Web Scraping Frameworks for Agentic Coding
 
 **Research Date:** 2026-02-26  

@@ -1,14 +1,17 @@
 ---
-title: "GEPA (Genetic-Pareto) Framework"
 date: 2026-02-22
-topic: "Prompt Optimization & AI System Optimization"
-category: "AI/ML Research"
-tags: ["gepa", "prompt-optimization", "genetic-algorithm", "pareto", "dspy", "reinforcement-learning"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: GEPA (Genetic-Pareto) Framework
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+  - ai/llm
+  - ai/rl
+status: complete
+topic: Prompt Optimization & AI System Optimization
+category: AI/ML Research
+type: investigation
 ---
-
 # GEPA (Genetic-Pareto) Framework Investigation Report
 
 **Research Date:** 2026-02-22  

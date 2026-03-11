@@ -2,9 +2,8 @@
 date: 2026-02-19
 tags:
   - development
-  - development/wensai
+  - dev/wensai
 ---
-
 # wensai — main — 2026-02-19 (session 2)
 
 ## Progress

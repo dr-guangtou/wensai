@@ -1,14 +1,17 @@
 ---
-title: "Dynamic Filtering for Coding Agent API Optimization"
 date: 2026-02-22
-topic: "API Optimization & Context Filtering"
-category: "AI/ML Engineering"
-tags: ["dynamic-filtering", "claude-code", "api-optimization", "token-cost", "context-window"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Dynamic Filtering for Coding Agent API Optimization
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+  - ai/agent
+  - ai/llm
+status: complete
+topic: API Optimization & Context Filtering
+category: AI/ML Engineering
+type: investigation
 ---
-
 # Dynamic Filtering for Coding Agent API Optimization
 
 **Research Date:** 2026-02-22  

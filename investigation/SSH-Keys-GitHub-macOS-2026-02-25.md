@@ -1,14 +1,15 @@
 ---
-title: "Setting Up SSH Keys for GitHub on macOS"
 date: 2026-02-25
-topic: "Git & GitHub Configuration"
-category: "Development Tools"
-tags: ["ssh", "github", "macos", "git", "authentication", "security"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Setting Up SSH Keys for GitHub on macOS
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+status: complete
+topic: Git & GitHub Configuration
+category: Development Tools
+type: investigation
 ---
-
 # Setting Up SSH Keys for GitHub on macOS
 
 **Purpose:** Configure SSH key authentication so you can push/pull to GitHub without entering your password every time.

@@ -1,13 +1,13 @@
 ---
-title: "Writing - Letter to a PhD student"
+title: Writing - Letter to a PhD student
 source: "https://davidbessis.substack.com/p/letter-to-a-phd-student"
 author:
   - "[[David Bessis]]"
+tags:
+  - clippings
 published: 2026-02-17
 created: 2026-02-21
 description: "What's the point of intellectual work, if AGI is around the corner?"
-tags:
-  - "clippings"
 ---
 ### What's the point of intellectual work, if AGI is around the corner?
 

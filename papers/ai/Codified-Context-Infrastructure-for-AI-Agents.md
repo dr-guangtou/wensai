@@ -2,21 +2,18 @@
 title: "Codified Context: Infrastructure for AI Agents in a Complex Codebase"
 authors:
   - Anonymous (experience report)
-source: arXiv:2602.20478v1
+source: "arXiv:2602.20478v1"
+tags:
+  - paper
+  - ai/agent
+  - dev/tool
+  - ai/llm
 date_published: 2026-02-19
 date_read: 2026-03-01
 type: paper_summary
 category: ai
-venue: Preprint (Software Engineering, AI Agents)
-tags:
-  - ai-agents
-  - context-engineering
-  - claude-code
-  - multi-agent-systems
-  - software-engineering
-  - agentic-coding
+venue: "Preprint (Software Engineering, AI Agents)"
 ---
-
 # Codified Context: Infrastructure for AI Agents in a Complex Codebase
 
 ## Paper Metadata

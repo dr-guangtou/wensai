@@ -1,14 +1,16 @@
 ---
-title: "Git Worktree for Agentic Coding - Investigation Report"
 date: 2026-02-24
-topic: "Git Worktree Workflow"
-category: "Development Tools"
-tags: ["git", "worktree", "agentic-coding", "aider", "claude-code", "workflow", "productivity"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Git Worktree for Agentic Coding - Investigation Report
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+  - ai/agent
+status: complete
+topic: Git Worktree Workflow
+category: Development Tools
+type: investigation
 ---
-
 # Git Worktree for Agentic Coding - Investigation Report
 
 **Research Date:** 2026-02-24  

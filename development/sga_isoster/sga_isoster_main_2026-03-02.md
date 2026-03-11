@@ -2,9 +2,8 @@
 date: 2026-03-02
 tags:
   - development
-  - development/sga_isoster
+  - dev/sga_isoster
 ---
-
 # sga_isoster — main — 2026-03-02
 
 ## Progress

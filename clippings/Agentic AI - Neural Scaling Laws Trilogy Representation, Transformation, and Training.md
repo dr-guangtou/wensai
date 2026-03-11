@@ -3,11 +3,11 @@ title: "Agentic AI - Neural Scaling Laws Trilogy: Representation, Transformation
 source: "https://liuyz0.github.io/blog/2026/NSLT/"
 author:
   - "[[Yizhou Liu]]"
+tags:
+  - clippings
 published:
 created: 2026-03-01
-description: "full picture of the origins of neural scaling laws"
-tags:
-  - "clippings"
+description: full picture of the origins of neural scaling laws
 ---
 **Yizhou Liu (刘逸舟)**
 

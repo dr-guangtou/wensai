@@ -2,9 +2,8 @@
 date: 2026-02-26
 tags:
   - development
-  - development/isoster
+  - dev/isoster
 ---
-
 # isoster — main — 2026-02-26
 
 ## Progress

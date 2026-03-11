@@ -3,12 +3,9 @@ date: 2026-02-28
 repo: hsc_sandbox
 branch: main
 tags:
-  - journal
-  - hsc_sandbox
-  - side1
   - development
+  - dev/hsc_sandbox
 ---
-
 ## Progress
 
 - Created the `side1` implementation for unified HSC DR4 cutout and PSF downloads with CLI entry point `side1/python/hsc_image_psf_downloader.py`.

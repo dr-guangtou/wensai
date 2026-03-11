@@ -5,24 +5,20 @@ authors:
   - Emiel Hoogeboom
   - Thomas Mensink
   - Tim Salimans
+source: "arXiv:2602.17270v1"
+tags:
+  - paper
+  - ai/deep-learning
+  - ai/vision
+  - ai/llm
 affiliations:
   - Google DeepMind Amsterdam
-source: arXiv:2602.17270v1
 date_published: 2026-02-19
 date_read: 2026-02-23
 type: paper_summary
 category: ai
-venue: Preprint (Machine Learning, Computer Vision)
-tags:
-  - diffusion-models
-  - latent-representations
-  - autoencoders
-  - image-generation
-  - video-generation
-  - stable-diffusion
-  - generative-ai
+venue: "Preprint (Machine Learning, Computer Vision)"
 ---
-
 # Unified Latents (UL): How to train your latents
 
 ## Paper Metadata

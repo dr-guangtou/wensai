@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - You're (probably) Using CLAUDE.md Wrong"
+title: Agentic AI - You're (probably) Using CLAUDE.md Wrong
 source: "https://x.com/morganlinton/status/2025259512148693409"
 author:
   - "[[Morgan Linton]]"
+tags:
+  - clippings
 published: 2026-02-22
 created: 2026-02-22
 description:
-tags:
-  - "clippings"
 ---
 I've been seeing a lot of posts on X about the "perfect" [CLAUDE.md](https://claude.md/) file, and noticing there's a huge variation in what people are recommending. I'll also be the first to admit, I'm not an expert, I'm just a guy who loves learning.
 

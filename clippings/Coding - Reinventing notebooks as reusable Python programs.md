@@ -1,13 +1,13 @@
 ---
-title: "Coding - Reinventing notebooks as reusable Python programs"
+title: Coding - Reinventing notebooks as reusable Python programs
 source: "https://marimo.io/blog/python-not-json"
 author:
   - "[[akshay]]"
+tags:
+  - clippings
 published: 2025-03-17
 created: 2026-02-21
-description: "Designing a Python notebook that blends the best parts of interactive computing with the sanity of code"
-tags:
-  - "clippings"
+description: Designing a Python notebook that blends the best parts of interactive computing with the sanity of code
 ---
 ![Reinventing notebooks as reusable Python programs](https://marimo.io/_next/image?url=%2Fimages%2Fblog%2F24%2Fthumbnail.png&w=1920&q=75&dpl=dpl_GPCLKz8A53uBsktdYCc4XpBbXHVt)
 

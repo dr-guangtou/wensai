@@ -1,3 +1,8 @@
+---
+date: 2026-01-01
+tags:
+  - clippings
+---
 # 致一位博士生的一封信
 
 > 原文作者：David Bessis  

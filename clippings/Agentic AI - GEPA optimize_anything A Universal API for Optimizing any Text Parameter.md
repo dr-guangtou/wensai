@@ -3,11 +3,11 @@ title: "Agentic AI - GEPA: optimize_anything: A Universal API for Optimizing any
 source: "https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/"
 author:
   - "[[GEPA]]"
+tags:
+  - clippings
 published: 2026-02-18
 created: 2026-02-23
 description: "GEPA's new API setting state-of-the-art results on optimizing any text parameter: code, prompts, agent architectures, and more. If you can measure it, you can optimize it."
-tags:
-  - "clippings"
 ---
 [Skip to content](https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/#optimize_anything-a-universal-api-for-optimizing-any-text-parameter)
 

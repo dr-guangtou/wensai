@@ -3,13 +3,9 @@ date: 2026-02-27
 repo: project1
 branch: feature/dedup-window-no-dedup
 tags:
-  - journal
-  - project1
-  - arxiv-digest
-  - llm-scoring
-  - dedup
+  - development
+  - ai/llm
 ---
-
 ## Progress
 
 - Added bounded digest-history dedup in `src/main.py` with `--dedup-days` defaulting to `2` and `--no-dedup` to bypass markdown-history dedup completely.

@@ -3,12 +3,12 @@ date: 2026-02-27
 repo: confeti
 branch: feature/qa-direct-residual-default
 tags:
-  - journal
-  - confeti
+  - development
+  - dev/tool
+  - astro/photometry
+topics:
   - sandbox
-  - lsb
 ---
-
 ## Progress
 
 - Added a new `sandbox/` workflow for NGC3610 with shared helpers (`common_io`, `common_benchmark`, `common_plotting`) and three step scripts.

@@ -3,22 +3,18 @@ title: "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Cod
 authors:
   - Thibaud Gloaguen
   - ETH SRI
-source: arXiv:2602.11988v1
+source: "arXiv:2602.11988v1"
+tags:
+  - paper
+  - ai/agent
+  - ai/llm
+  - dev/tool
 date_published: 2026-02-12
 date_read: 2026-02-22
 type: paper_summary
 category: ai
 venue: ICML (Machine Learning)
-tags:
-  - coding-agents
-  - llm
-  - agents.md
-  - context-files
-  - software-engineering
-  - swebench
-  - evaluation
 ---
-
 # Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
 
 ## Paper Metadata

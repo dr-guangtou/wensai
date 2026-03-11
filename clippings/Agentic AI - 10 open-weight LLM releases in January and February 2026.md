@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - 10 open-weight LLM releases in January and February 2026"
+title: Agentic AI - 10 open-weight LLM releases in January and February 2026
 source: "https://x.com/rasbt/status/2026659971467706603"
 author:
   - "[[Sebastian Raschka]]"
+tags:
+  - clippings
 published: 2026-02-25
 created: 2026-02-26
 description:
-tags:
-  - "clippings"
 ---
 If you have struggled to keep up with open-weight releases this past month, here's an overview of the main ones in chronological order with a focus on the architecture designs.
 

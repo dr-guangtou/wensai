@@ -2,9 +2,8 @@
 date: 2026-02-28
 tags:
   - development
-  - development/frankenz
+  - dev/frankenz
 ---
-
 # frankenz — phase-02/production-api — 2026-02-28 (Session 4: User Manual)
 
 ## Progress

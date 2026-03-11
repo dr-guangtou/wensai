@@ -1,13 +1,13 @@
 ---
-title: "Agentic AI - How to Train Small Deep Research Agents?"
+title: Agentic AI - How to Train Small Deep Research Agents?
 source: "https://x.com/neural_avb/status/2027425381230555354"
 author:
   - "[[@neural_avb]]"
+tags:
+  - clippings
 published: 2025-07-08
 created: 2026-02-28
 description:
-tags:
-  - "clippings"
 ---
 This is essentially a "survival guide" for training **Deep Research agents** with Small Language Models (SLMs). This article is entirely based on a new research paper that came out earlier this week.
 

@@ -2,16 +2,11 @@
 date: 2026-02-27
 repo: qingsong
 branch: main
-phase: Phase 12
 tags:
-  - journal
-  - ui
-  - editing
-  - linking
-  - migration
-  - ux
+  - development
+  - dev/wensai
+phase: Phase 12
 ---
-
 ## Progress
 
 - Completed Phase 12: UI Polish & Enhanced Editing, transforming the WebUI from a passive viewer into a proactive authoring tool.

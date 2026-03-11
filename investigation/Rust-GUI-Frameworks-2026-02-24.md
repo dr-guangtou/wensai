@@ -1,14 +1,15 @@
 ---
-title: "Rust GUI Development - egui/eframe, Tauri, and Iced Comparison"
 date: 2026-02-24
-topic: "Rust GUI Frameworks"
-category: "Development Tools"
-tags: ["rust", "gui", "egui", "tauri", "iced", "eframe", "desktop-app", "cross-platform"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: "Rust GUI Development - egui/eframe, Tauri, and Iced Comparison"
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+status: complete
+topic: Rust GUI Frameworks
+category: Development Tools
+type: investigation
 ---
-
 # Rust GUI Development - Framework Comparison
 
 **Research Date:** 2026-02-24  

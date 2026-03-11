@@ -7,23 +7,21 @@ authors:
   - Pavel Izmailov
   - J. Zico Kolter
   - Andrew Gordon Wilson
+source: "arXiv:2601.03220v1"
+tags:
+  - paper
+  - dev/tool
+  - ai/deep-learning
+  - ai/llm
 affiliations:
   - Carnegie Mellon University
   - New York University
-source: arXiv:2601.03220v1
 date_published: 2026-01
 date_read: 2026-03-04
 type: paper_summary
 category: ai
-venue: Preprint (Machine Learning, Information Theory)
-tags:
-  - information-theory
-  - epiplexity
-  - computational-bounds
-  - data-selection
-  - ood-generalization
+venue: "Preprint (Machine Learning, Information Theory)"
 ---
-
 # From Entropy to Epiplexity
 
 ## Paper Metadata

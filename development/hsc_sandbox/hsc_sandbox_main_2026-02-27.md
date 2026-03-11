@@ -2,9 +2,8 @@
 date: 2026-02-27
 tags:
   - development
-  - development/hsc_sandbox
+  - dev/hsc_sandbox
 ---
-
 # hsc_sandbox — main — 2026-02-27
 
 ## Progress

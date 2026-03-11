@@ -1,14 +1,18 @@
 ---
-title: "Apache Kafka for Scientific Facilities - Quick Summary"
 date: 2026-02-25
-topic: "Data Infrastructure & Streaming"
-category: "Data Engineering"
-tags: ["kafka", "streaming", "data-pipeline", "real-time", "astronomy", "must", "rubin"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Apache Kafka for Scientific Facilities - Quick Summary
+source: Yuzhe Research
+tags:
+  - investigation
+  - dev/tool
+  - astro/galaxy
+  - must/science
+  - astro/survey
+status: complete
+topic: Data Infrastructure & Streaming
+category: Data Engineering
+type: investigation
 ---
-
 # Apache Kafka for Scientific Facilities - Quick Summary
 
 ---

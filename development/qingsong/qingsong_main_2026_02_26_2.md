@@ -2,16 +2,11 @@
 date: 2026-02-26
 repo: qingsong
 branch: main
-phase: 3 & 4
 tags:
-  - journal
-  - cli
-  - search
-  - migration
-  - traceability
-  - verification
+  - development
+  - dev/tool
+phase: 3 & 4
 ---
-
 ## Progress
 
 - **Phase 3: CLI & Search Expansion**

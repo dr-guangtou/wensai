@@ -2,9 +2,8 @@
 date: 2026-03-02
 tags:
   - development
-  - development/isoster
+  - dev/isoster
 ---
-
 # isoster — feat/housekeeping-data-docs — 2026-03-02
 
 ## Progress

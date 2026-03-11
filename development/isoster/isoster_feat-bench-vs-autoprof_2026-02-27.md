@@ -2,9 +2,8 @@
 date: 2026-02-27
 tags:
   - development
-  - development/isoster
+  - dev/isoster
 ---
-
 # isoster — feat/bench-vs-autoprof — 2026-02-27
 
 ## Progress

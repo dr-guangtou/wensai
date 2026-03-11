@@ -1,13 +1,13 @@
 ---
-title: "Writing - Don't delegate understanding"
+title: Writing - Don't delegate understanding
 source: "https://stephango.com/understand"
 author:
   - "[[Steph Ango]]"
+tags:
+  - clippings
 published: 2023-08-13
 created: 2026-03-02
 description: "There is a parasite, I see it everywhere. It consumes your health and wealth. It preys on ignorance and is easy to catch. It’s so common you may not even not..."
-tags:
-  - "clippings"
 ---
 There is a parasite, I see it everywhere. It consumes your health and wealth. It preys on ignorance and is easy to catch. It’s so common you may not even notice you have it.
 

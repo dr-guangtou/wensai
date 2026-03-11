@@ -1,18 +1,15 @@
 ---
-title: "The Complete Guide to Building Skills for Claude - Summary"
+title: The Complete Guide to Building Skills for Claude - Summary
+source: The-Complete-Guide-to-Building-Skill-for-Claude.pdf
 author: Anthropic
-source: "The-Complete-Guide-to-Building-Skill-for-Claude.pdf"
+tags:
+  - investigation
+  - ai/agent
+  - ai/llm
+  - dev/tool
 date_read: 2026-02-22
 type: summary
-tags:
-  - claude
-  - ai
-  - skills
-  - mcp
-  - automation
-  - documentation
 ---
-
 # The Complete Guide to Building Skills for Claude - Summary
 
 ## What is a Skill?

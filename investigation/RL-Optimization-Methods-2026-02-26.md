@@ -1,14 +1,18 @@
 ---
-title: "Language Model RL Optimization Methods - Summary"
 date: 2026-02-26
-topic: "Reinforcement Learning for LLMs"
-category: "AI/ML Research"
-tags: ["rl", "optimization", "llm", "ppo", "dpo", "grpo", "astronomy-applications"]
-status: "complete"
-source: "Yuzhe Research"
-type: "investigation"
+title: Language Model RL Optimization Methods - Summary
+source: Yuzhe Research
+tags:
+  - investigation
+  - ai/rl
+  - ai/deep-learning
+  - ai/llm
+  - ai/science
+status: complete
+topic: Reinforcement Learning for LLMs
+category: AI/ML Research
+type: investigation
 ---
-
 # Language Model RL Optimization Methods - Summary
 
 **Research Date:** 2026-02-26  

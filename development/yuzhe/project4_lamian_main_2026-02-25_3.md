@@ -3,11 +3,9 @@ date: 2026-02-25
 repo: yuzhe
 branch: main
 tags:
-  - journal
-  - phase-2-3
-  - gui
+  - development
+  - dev/tool
 ---
-
 ## Progress
 
 - Completed Phase 2.3 planning/design lock (`P4-524`/`L-224`) by updating mirrored spec and tracker docs in `project4/` and `project4/lamian/docs/`.

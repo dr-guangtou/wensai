@@ -2,14 +2,11 @@
 date: 2026-02-26
 repo: qingsong
 branch: main
-phase: Phase 5
 tags:
-  - journal
-  - architecture
-  - portability
-  - cli
+  - development
+  - dev/tool
+phase: Phase 5
 ---
-
 ## Progress
 
 - Completed Phase 5: Project Portability, transforming Qingsong from a single-repository script into a flexible, multi-vault engine.

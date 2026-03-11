@@ -3,12 +3,10 @@ date: 2026-02-25
 repo: qingsong
 branch: main
 tags:
-  - journal
-  - hierarchy
-  - validation
-  - doorstop
+  - development
+  - dev/wensai
+  - dev/tool
 ---
-
 ## Progress
 
 - Implemented Flexible L3 Hierarchy support in `doorstop_io.py` and `core.py`, allowing items to be stored in nested `L1/L2/L3` directories.

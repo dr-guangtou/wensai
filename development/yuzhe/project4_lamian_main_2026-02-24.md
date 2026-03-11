@@ -3,12 +3,11 @@ date: 2026-02-24
 repo: yuzhe
 branch: main
 tags:
-  - journal
-  - lamian
+  - development
+  - dev/tool
+topics:
   - cli-expansion
-  - hardening
 ---
-
 ## Progress
 
 - Finalized and merged the feature branch into `main` with commit `cc2a8c6` (`Finalize LaMian CLI expansion and hardening through P4-430`).

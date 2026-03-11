@@ -3,21 +3,17 @@ title: "Intelligent AI Delegation: A Framework for Safe Task Distribution"
 authors:
   - Nenad Tomasev
   - Google DeepMind
-source: arXiv:2602.11865v1
+source: "arXiv:2602.11865v1"
+tags:
+  - paper
+  - ai/agent
+  - ai/llm
 date_published: 2026-02-12
 date_read: 2026-02-23
 type: paper_summary
 category: ai
 venue: Preprint (Artificial Intelligence)
-tags:
-  - ai-agents
-  - delegation
-  - multi-agent
-  - agentic-ai
-  - safety
-  - coordination
 ---
-
 # Intelligent AI Delegation
 
 ## Paper Metadata

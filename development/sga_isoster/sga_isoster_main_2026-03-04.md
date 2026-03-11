@@ -2,9 +2,8 @@
 date: 2026-03-04
 tags:
   - development
-  - development/sga_isoster
+  - dev/sga_isoster
 ---
-
 # sga_isoster — Step 3d: SEP-based object masks — 2026-03-04
 
 ## Progress

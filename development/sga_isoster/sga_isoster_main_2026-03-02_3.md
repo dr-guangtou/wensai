@@ -2,9 +2,8 @@
 date: 2026-03-02
 tags:
   - development
-  - development/sga_isoster
+  - dev/sga_isoster
 ---
-
 # sga_isoster — Step 3: FITS Validation & Object Mask Building — 2026-03-02
 
 ## Overview
