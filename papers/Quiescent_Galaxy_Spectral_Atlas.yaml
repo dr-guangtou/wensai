@@ -1,0 +1,1110 @@
+# Spectral Atlas for Quiescent Galaxies
+# Source: Hamadouche et al. (2026), arXiv:2603.13479
+# https://arxiv.org/abs/2603.13479
+#
+# This YAML file contains rest-frame optical to NIR spectral features
+# for interpreting quiescent galaxy spectra.
+#
+# All wavelengths are in Angstroms (vacuum).
+#
+# Diagnostic codes:
+#   - age: stellar population age
+#   - Z/H: metallicity
+#   - α/Fe: alpha enhancement
+#   - surface gravity: IMF sensitivity (dwarf/giant ratio)
+#   - T_eff: effective temperature (stellar)
+#   - T_e: electron temperature (gas)
+#   - gas density: gas density diagnostic
+#   - high-ionization: high ionization state indicator
+#   - SFR: star formation rate
+#   - N_HI: neutral hydrogen column
+#   - M_BH: black hole mass
+#
+# Source codes:
+#   - stellar: stellar photosphere
+#   - ISM: interstellar medium
+#   - AGN: active galactic nucleus
+#
+# Nucleosynthetic channels:
+#   - BBN: Big Bang nucleosynthesis
+#   - CCSNe: core-collapse supernovae (>8 M_sun)
+#   - SNeIa: Type Ia supernovae
+#   - AGB: asymptotic giant branch stars
+#
+# Notes:
+#   a) Lick index measuring abundance of main absorber
+#   b) Formerly Fe4668, renamed C2 4668 (carbon-sensitive)
+#   c) Blend of Ti I, Ba I, Fe I, Ca I at ~6500 Å
+#   d) Broad molecular bandhead feature
+#   e) Na I doublet (5889, 5896 Å), ISM outflow contribution
+#   f) CN2 Lick index definition avoiding Hδ
+#   g) Mgb complex - Mg I triplet lines
+#   h) G-band blend (CH, Fe, Ca)
+#   i) High-ionization AGN/starburst lines
+#   j) Mn I from explosive Si burning in CCSNe
+#   k) Elements formed in massive stars, released via CCSNe
+#   l) Type Ia from thermonuclear WD explosions
+#   m) Surface gravity traces dwarf/giant ratio (IMF)
+#   iv) FeH Wing-Ford band (9850-10200 Å)
+#   vi) CN blend with TiO, ZrO
+#   vii) NIR He I triplet (10832.1, 10833.2, 10833.3 Å)
+#   viii) Na I 0.82µm blend with TiO bandhead
+
+metadata:
+  title: "A Spectral Atlas for Quiescent Galaxies"
+  authors:
+    - Massissilia L. Hamadouche
+    - Jacqueline Antwi-Danso
+    - Aliza Beverage
+    - Katherine E. Whitaker
+  year: 2026
+  arxiv_id: "2603.13479"
+  wavelength_range:
+    min: 3000  # Å
+    max: 20000  # Å
+  description: |
+    Reference table of spectral absorption and emission features
+    in rest-frame optical to NIR spectra of quiescent galaxies.
+    Includes physical origins, nucleosynthetic channels, and
+    diagnostic utility for stellar population studies.
+
+absorption_features:
+  # UV-Blue region
+  - feature: "NH"
+    wavelength: 3360.00
+    source: ["stellar"]
+    line_origin: ["M-type stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["D. F. Carbon et al. (1987); D. M. Meyer & K. C. Roth (1991)"]
+    notes: "d"
+
+  - feature: "H∞"
+    wavelength: 3645.98
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+    notes: "Balmer limit"
+
+  - feature: "H10"
+    wavelength: 3798.98
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "H9"
+    wavelength: 3836.49
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "CN"
+    wavelength: 3884.10
+    source: ["stellar", "ISM"]
+    line_origin: ["late G/K giants"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["Z/H", "age", "α/Fe"]
+    references: ["J. E. Hesser et al. (1976); J. P. Smolinski et al. (2011); J. E. Norris et al. (2013)"]
+    notes: "d"
+
+  - feature: "Hζ"
+    wavelength: 3890.13
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Ca K"
+    wavelength: 3934.78
+    source: ["stellar", "ISM"]
+    line_origin: ["F-M-type stars", "neutral outflows"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["age", "Z/H"]
+    references: ["J. Fraunhofer (1817)"]
+    notes: "ii"
+
+  - feature: "Ca H"
+    wavelength: 3969.59
+    source: ["stellar"]
+    line_origin: ["F-M-type stars", "neutral outflows"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["age", "Z/H"]
+    references: ["J. Fraunhofer (1817)"]
+    notes: "iii"
+
+  - feature: "Hϵ"
+    wavelength: 3971.20
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Mn I"
+    wavelength: 4019.24
+    source: ["stellar"]
+    line_origin: ["late G/K stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H"]
+    references: ["C. Kobayashi et al. (2006, 2020)"]
+    notes: "j"
+
+  - feature: "Mn I"
+    wavelength: 4027.58
+    source: ["stellar"]
+    line_origin: ["late G/K stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H"]
+    references: ["C. Kobayashi et al. (2006, 2020)"]
+    notes: "i,j"
+
+  - feature: "Mn I"
+    wavelength: 4031.90
+    source: ["stellar"]
+    line_origin: ["late G/K stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H"]
+    references: ["C. Kobayashi et al. (2006, 2020)"]
+    notes: "i,j"
+
+  - feature: "Hδ"
+    wavelength: 4102.89
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age", "Z/H", "α/Fe"]
+    references: ["G. Worthey et al. (1994); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "SiH"
+    wavelength: 4143.00
+    source: ["stellar", "ISM"]
+    line_origin: ["late K-M stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H", "age"]
+    references: ["D. N. Davis (1940); D. L. Lambert & E. A. Mallia (1970); D. Thomas et al. (2004)"]
+
+  - feature: "CN_1"
+    wavelength: 4170.47
+    source: ["stellar", "ISM"]
+    line_origin: ["G/K-type (C-rich) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["Z/H", "age", "α/Fe"]
+    references: ["S. M. Faber et al. (1985); D. Thomas et al. (2003)"]
+    notes: "f"
+
+  - feature: "CN_2"
+    wavelength: 4220.30
+    source: ["stellar", "ISM"]
+    line_origin: ["G/K-type (C-rich) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["Z/H", "age", "α/Fe"]
+    references: ["G. Worthey et al. (1994); D. Thomas et al. (2003)"]
+    notes: "f"
+
+  - feature: "Sr II"
+    wavelength: 4216.71
+    source: ["stellar"]
+    line_origin: ["late F-K-type stars"]
+    nucleosynthesis: ["AGB"]
+    diagnostic: ["age"]
+    references: ["J. W. Johnson & D. H. Weinberg (2020)"]
+
+  - feature: "Ca I"
+    wavelength: 4227.92
+    source: ["stellar"]
+    line_origin: ["late F-K type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H", "α/Fe", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "i"
+
+  - feature: "Cr I"
+    wavelength: 4255.55
+    source: ["stellar"]
+    line_origin: ["late B-F type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["C. Kobayashi et al. (2006)"]
+
+  - feature: "CH"
+    wavelength: 4305.61
+    source: ["stellar", "ISM"]
+    line_origin: ["late G-K-type (C-rich) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["S. M. Faber et al. (1985); S. C. Trager et al. (1998)"]
+    notes: "a,h"
+
+  - feature: "Hγ"
+    wavelength: 4341.69
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["G. Worthey & D. L. Ottaviani (1997); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Fe I"
+    wavelength: 4384.77
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a"
+
+  - feature: "Ca I"
+    wavelength: 4464.24
+    source: ["stellar"]
+    line_origin: ["late G-K-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H", "α/Fe", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a,i"
+
+  - feature: "Fe I"
+    wavelength: 4537.76
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["S. C. Trager et al. (1998); C.-W. Yip et al. (2014)"]
+    notes: "a"
+
+  - feature: "C2"
+    wavelength: 4678.45
+    source: ["stellar"]
+    line_origin: ["late G-K (C-rich) stars"]
+    nucleosynthesis: ["CCSNe", "AGB"]
+    diagnostic: ["Z/H", "age"]
+    references: ["S. C. Trager et al. (1998); C.-W. Yip et al. (2014)"]
+    notes: "a,b"
+
+  - feature: "Hβ"
+    wavelength: 4862.68
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["Z/H", "age", "α/Fe"]
+    references: ["R. M. González Delgado et al. (1999b); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Fe I"
+    wavelength: 4977.75
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a,i"
+
+  # Green region - Mg complex
+  - feature: "MgH"
+    wavelength: 5101.63
+    source: ["stellar"]
+    line_origin: ["F-K giants & dwarfs"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["surface gravity", "Z/H"]
+    references: ["N. Grevesse & A. J. Sauval (1973); S. M. Faber et al. (1985)"]
+
+  - feature: "Mg I"
+    wavelength: 5168.76
+    source: ["stellar"]
+    line_origin: ["F-M-type stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["α/Fe", "Z/H", "age"]
+    references: ["T. J. Deeming (1960); S. M. Faber et al. (1985)"]
+    notes: "g"
+
+  - feature: "Mg I"
+    wavelength: 5174.13
+    source: ["stellar"]
+    line_origin: ["F-M-type stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["α/Fe", "Z/H", "age"]
+    references: ["T. J. Deeming (1960); S. M. Faber et al. (1985)"]
+    notes: "g,i"
+
+  - feature: "MgH"
+    wavelength: 5175.38
+    source: ["stellar"]
+    line_origin: ["F-K giants & dwarfs"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["surface gravity", "Z/H"]
+    references: ["N. Grevesse & A. J. Sauval (1973); S. M. Faber et al. (1985)"]
+
+  - feature: "Mg I"
+    wavelength: 5185.05
+    source: ["stellar"]
+    line_origin: ["F-M-type stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["α/Fe", "Z/H", "age"]
+    references: ["T. J. Deeming (1960); S. M. Faber et al. (1985)"]
+    notes: "g,i"
+
+  - feature: "MgH"
+    wavelength: 5187.56
+    source: ["stellar"]
+    line_origin: ["F-K giants & dwarfs"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["surface gravity"]
+    references: ["N. Grevesse & A. J. Sauval (1973); S. M. Faber et al. (1985)"]
+
+  - feature: "Fe I"
+    wavelength: 5265.65
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age", "surface gravity"]
+    references: ["S. M. Faber et al. (1985); G. Worthey et al. (1994)"]
+    notes: "a"
+
+  - feature: "Fe I"
+    wavelength: 5332.13
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a,i"
+
+  - feature: "Fe I"
+    wavelength: 5401.25
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a,i"
+
+  - feature: "Fe I"
+    wavelength: 5710.25
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a"
+
+  - feature: "Fe I"
+    wavelength: 5788.38
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a,i"
+
+  - feature: "Fe I"
+    wavelength: 5848.60
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "i"
+
+  - feature: "Fe I"
+    wavelength: 5902.47
+    source: ["stellar"]
+    line_origin: ["F-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["G. Worthey et al. (1994)"]
+    notes: "a,i"
+
+  # Yellow-Red region - Na D, TiO
+  - feature: "Na I"
+    wavelength: 5891.60
+    source: ["stellar", "ISM"]
+    line_origin: ["late F-M-type stars", "neutral outflows"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H", "N_HI"]
+    references: ["G. Worthey et al. (1994); S. Belli et al. (2024)"]
+    notes: "e"
+
+  - feature: "Na I"
+    wavelength: 5897.60
+    source: ["stellar", "ISM"]
+    line_origin: ["late F-M-type stars", "neutral outflows"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H", "N_HI"]
+    references: ["G. Worthey et al. (1994); S. Belli et al. (2024)"]
+    notes: "i,e"
+
+  - feature: "TiO_1"
+    wavelength: 5967.13
+    source: ["stellar"]
+    line_origin: ["M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H", "age", "surface gravity"]
+    references: ["S. M. Faber et al. (1985); G. Worthey et al. (1994); C. Maraston (2005); R. Riffel et al. (2019)"]
+    notes: "a"
+
+  - feature: "TiO_2"
+    wavelength: 6232.63
+    source: ["stellar"]
+    line_origin: ["M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H", "age", "surface gravity"]
+    references: ["S. M. Faber et al. (1985); G. Worthey et al. (1994)"]
+    notes: "a"
+
+  - feature: "Ca I"
+    wavelength: 6495.57
+    source: ["stellar"]
+    line_origin: ["late G-K-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["age", "Z/H"]
+    references: ["E. Bica & D. Alloin (1986); D. Schaerer et al. (2000); S. J. Austin et al. (2007)"]
+    notes: "c,i"
+
+  - feature: "Hα"
+    wavelength: 6564.61
+    source: ["stellar"]
+    line_origin: ["A-G-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  # Near-IR region
+  - feature: "K I"
+    wavelength: 7667.01
+    source: ["stellar", "ISM"]
+    line_origin: ["G-M-stars", "neutral gas"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H"]
+    references: ["E. Carretta (2021)"]
+
+  - feature: "K I"
+    wavelength: 7701.08
+    source: ["stellar", "ISM"]
+    line_origin: ["G-M-stars", "neutral gas"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H"]
+    references: ["E. Carretta (2021)"]
+
+  - feature: "Na I"
+    wavelength: 8185.51
+    source: ["stellar"]
+    line_origin: ["M-type dwarfs"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H", "age", "surface gravity"]
+    references: ["S. Delisle & E. Hardy (1992); R. P. Schiavon et al. (1997); C. Conroy & P. G. van Dokkum (2012)"]
+    notes: "viii"
+
+  - feature: "Na I"
+    wavelength: 8197.04
+    source: ["stellar"]
+    line_origin: ["M-type dwarfs"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H", "age", "surface gravity"]
+    references: ["S. Delisle & E. Hardy (1992); R. P. Schiavon et al. (1997); C. Conroy & P. G. van Dokkum (2012)"]
+    notes: "viii,i"
+
+  # Ca Triplet region
+  - feature: "Pa20"
+    wavelength: 8394.50
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "TiO_v"
+    wavelength: 8407.60
+    source: ["stellar"]
+    line_origin: ["M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H", "age"]
+    references: ["U. G. Jorgensen (1994); A. J. Cenarro et al. (2009)"]
+
+  - feature: "Pa19"
+    wavelength: 8415.42
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Pa18"
+    wavelength: 8440.07
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Pa17"
+    wavelength: 8469.37
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Ca II"
+    wavelength: 8500.36
+    source: ["stellar"]
+    line_origin: ["late F-M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["age", "Z/H", "surface gravity"]
+    references: ["B. Barbuy & M. Erdelyi-Mendes (1989); T. Bosler et al. (2002); N. J. McConnell et al. (2016)"]
+    notes: "CaT line 1"
+
+  - feature: "Pa16"
+    wavelength: 8504.61
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Pa15"
+    wavelength: 8547.52
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Ca II"
+    wavelength: 8544.44
+    source: ["stellar"]
+    line_origin: ["late F-M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["age", "Z/H", "surface gravity"]
+    references: ["B. Barbuy & M. Erdelyi-Mendes (1989); T. Bosler et al. (2002); N. J. McConnell et al. (2016)"]
+    notes: "CaT line 2"
+
+  - feature: "Pa14"
+    wavelength: 8600.54
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Ca II"
+    wavelength: 8664.52
+    source: ["stellar"]
+    line_origin: ["late F-M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["age", "Z/H", "surface gravity"]
+    references: ["B. Barbuy & M. Erdelyi-Mendes (1989); T. Bosler et al. (2002); N. J. McConnell et al. (2016)"]
+    notes: "CaT line 3"
+
+  - feature: "Pa13"
+    wavelength: 8667.18
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Fe I"
+    wavelength: 8691.01
+    source: ["stellar"]
+    line_origin: ["late G-K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H"]
+    references: ["G. Worthey et al. (1994)"]
+
+  - feature: "Pa12"
+    wavelength: 8752.65
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Mg I"
+    wavelength: 8809.18
+    source: ["stellar"]
+    line_origin: ["F-M-type stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["age", "Z/H", "T_eff", "surface gravity"]
+    references: ["N. J. McConnell et al. (2016)"]
+
+  - feature: "Pa11"
+    wavelength: 8864.99
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "TiO_v"
+    wavelength: 8870.90
+    source: ["stellar"]
+    line_origin: ["M-type stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H", "T_eff", "surface gravity"]
+    references: ["U. G. Jorgensen (1994); C. Maraston (2005); A. J. Cenarro et al. (2009)"]
+
+  - feature: "Pa10"
+    wavelength: 9017.15
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "Pa9"
+    wavelength: 9231.30
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "CN"
+    wavelength: 9320.00
+    source: ["stellar"]
+    line_origin: ["C-rich (C-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["Z/H", "age"]
+    references: ["R. Riffel et al. (2015); S. Lu et al. (2025)"]
+    notes: "vi"
+
+  - feature: "Paϵ"
+    wavelength: 9548.32
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "FeH"
+    wavelength: 9915.90
+    source: ["stellar"]
+    line_origin: ["late M-dwarfs"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["surface gravity"]
+    references: ["N. J. McConnell et al. (2016)"]
+    notes: "iv"
+
+  - feature: "FeH"
+    wavelength: 10036.47
+    source: ["stellar"]
+    line_origin: ["late M-dwarfs"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["surface gravity"]
+    references: ["R. P. Schiavon et al. (1997)"]
+    notes: "iv"
+
+  - feature: "Paδ"
+    wavelength: 10052.10
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "VO"
+    wavelength: 10480.00
+    source: ["stellar"]
+    line_origin: ["late M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["Z/H", "T_eff", "surface gravity"]
+    references: ["A. McKellar (1956); H. Spinrad & R. L. Younkin (1966); R. Riffel et al. (2015)"]
+
+  - feature: "Paγ"
+    wavelength: 10941.20
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "TiO"
+    wavelength: 11044.80
+    source: ["stellar"]
+    line_origin: ["M-type stars"]
+    nucleosynthesis: ["CCSNe", "SNeIa"]
+    diagnostic: ["age", "surface gravity"]
+    references: ["U. G. Jorgensen (1994); A. J. Cenarro et al. (2009)"]
+
+  - feature: "CN"
+    wavelength: 11100.00
+    source: ["stellar"]
+    line_origin: ["C-rich (C-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["age", "Z/H"]
+    references: ["C. Maraston (2005); R. Riffel et al. (2015)"]
+
+  - feature: "Na I"
+    wavelength: 11384.57
+    source: ["stellar"]
+    line_origin: ["M-dwarfs"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["surface gravity"]
+    references: ["E. Eftekhari et al. (2021)"]
+
+  - feature: "Fe I"
+    wavelength: 11384.57
+    source: ["stellar"]
+    line_origin: ["late G/K-type stars"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["Z/H"]
+    references: ["E. Eftekhari et al. (2021)"]
+
+  - feature: "Paβ"
+    wavelength: 12821.60
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009); E. Eftekhari et al. (2021)"]
+
+  - feature: "Al I"
+    wavelength: 13154.35
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["CCSNe", "AGB"]
+    diagnostic: ["Z/H"]
+    references: ["C. Kobayashi et al. (2006); B. Roeck (2015); Nordlander & Lind (2017); E. Eftekhari et al. (2021)"]
+
+  - feature: "H2O"
+    wavelength: 14000.00
+    source: ["stellar"]
+    line_origin: ["O-rich M-type stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["age"]
+    references: ["R. Riffel et al. (2015)"]
+
+  - feature: "CN"
+    wavelength: 14175.00
+    source: ["stellar"]
+    line_origin: ["C-rich (C-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["age", "Z/H"]
+    references: ["C. Maraston (2005); R. Riffel et al. (2015)"]
+
+  - feature: "CN"
+    wavelength: 14607.50
+    source: ["stellar"]
+    line_origin: ["C-rich (C-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["age", "Z/H"]
+    references: ["C. Maraston (2005); R. Riffel et al. (2015)"]
+
+  - feature: "Mg I"
+    wavelength: 14881.60
+    source: ["stellar"]
+    line_origin: ["F-M type stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["Z/H"]
+    references: ["J. T. Rayner et al. (2009)"]
+
+  - feature: "CO"
+    wavelength: 15772.50
+    source: ["stellar"]
+    line_origin: ["C/O-rich (C/M-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["age"]
+    references: ["R. Riffel et al. (2015)"]
+
+  - feature: "CO"
+    wavelength: 16230.00
+    source: ["stellar"]
+    line_origin: ["C/O-rich (C/M-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["age"]
+    references: ["R. Riffel et al. (2015)"]
+
+  - feature: "H2O"
+    wavelength: 17100.00
+    source: ["stellar"]
+    line_origin: ["O-rich (M-type) stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["age"]
+    references: ["R. Riffel et al. (2015)"]
+
+  - feature: "CN"
+    wavelength: 17700.00
+    source: ["stellar"]
+    line_origin: ["C-rich (C-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["age", "Z/H"]
+    references: ["S. Lu et al. (2025)"]
+
+  - feature: "C2"
+    wavelength: 17800.00
+    source: ["stellar"]
+    line_origin: ["C-rich (C-type) stars"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["age", "Z/H"]
+    references: ["C. Maraston (2005); S. Lu et al. (2025)"]
+
+  - feature: "Paα"
+    wavelength: 18756.10
+    source: ["stellar"]
+    line_origin: ["K/M-type stars"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["age"]
+    references: ["A. H. Poetker (1927); W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "H2O"
+    wavelength: 19000.00
+    source: ["stellar"]
+    line_origin: ["O-rich (M-type) stars"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["age"]
+    references: ["R. Riffel et al. (2015)"]
+
+emission_features:
+  - feature: "[Ne III]"
+    wavelength: 3342.18
+    source: ["AGN"]
+    line_origin: ["NLR", "post-AGB", "shocks"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["high-ionization"]
+    references: ["M. S. Brotherton et al. (1999)"]
+    notes: "i"
+
+  - feature: "[Ne V]"
+    wavelength: 3346.79
+    source: ["AGN"]
+    line_origin: ["CLR"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["high-ionization"]
+    references: ["J. A. Baldwin et al. (1981)"]
+    notes: "i,8"
+
+  - feature: "[Ne V]"
+    wavelength: 3426.85
+    source: ["AGN", "ISM"]
+    line_origin: ["CLR", "shocks"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["high-ionization"]
+    references: ["J. A. Baldwin et al. (1981)"]
+    notes: "i"
+
+  - feature: "[O II]"
+    wavelength: 3727.10
+    source: ["AGN", "ISM"]
+    line_origin: ["NLR", "outflows"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "gas density", "SFR"]
+    references: ["D. E. Osterbrock et al. (1990)"]
+
+  - feature: "[O II]"
+    wavelength: 3729.86
+    source: ["AGN", "ISM"]
+    line_origin: ["NLR", "outflows"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "gas density", "SFR"]
+    references: ["D. E. Osterbrock et al. (1990)"]
+
+  - feature: "[Ne III]"
+    wavelength: 3869.86
+    source: ["AGN", "ISM"]
+    line_origin: ["NLR", "post-AGB", "shocks"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["gas density"]
+    references: ["S. Belli et al. (2024)"]
+    notes: "i"
+
+  - feature: "He II"
+    wavelength: 4687.02
+    source: ["AGN", "stellar"]
+    line_origin: ["AGN", "WR winds"]
+    nucleosynthesis: ["BBN", "CCSNe"]
+    diagnostic: ["gas density", "T_eff"]
+    references: ["D. E. Osterbrock et al. (1990); G. Worthey et al. (1994)"]
+
+  - feature: "[Fe VII]"
+    wavelength: 4894.80
+    source: ["AGN"]
+    line_origin: ["NLR"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["high-ionization"]
+    references: ["D. E. Osterbrock et al. (1990)"]
+    notes: "i"
+
+  - feature: "[O III]"
+    wavelength: 4960.29
+    source: ["AGN", "ISM"]
+    line_origin: ["NLR", "outflows"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "gas density"]
+    references: ["H. Nussbaumer & P. J. Storey (1981)"]
+
+  - feature: "[O III]"
+    wavelength: 5008.24
+    source: ["AGN", "ISM"]
+    line_origin: ["NLR", "outflows"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "gas density"]
+    references: ["H. Nussbaumer & P. J. Storey (1981)"]
+
+  - feature: "He I"
+    wavelength: 5877.25
+    source: ["AGN", "stellar"]
+    line_origin: ["BLR", "WR winds"]
+    nucleosynthesis: ["BBN", "CCSNe"]
+    diagnostic: ["surface gravity", "T_eff", "high-ionization"]
+    references: ["C. L. Martin & R. C. Kennicutt (1997); D. Schaerer et al. (2000)"]
+
+  - feature: "[N II]"
+    wavelength: 6549.86
+    source: ["AGN", "stellar"]
+    line_origin: ["NLR", "post-AGB shocks"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["T_e", "Z/H"]
+    references: ["J. A. Baldwin et al. (1981)"]
+
+  - feature: "Hα"
+    wavelength: 6564.61
+    source: ["ISM", "AGN"]
+    line_origin: ["BLR/NLR", "H II regions"]
+    nucleosynthesis: ["BBN"]
+    diagnostic: ["M_BH", "SFR"]
+    references: ["W. L. Wiese & J. R. Fuhr (2009)"]
+
+  - feature: "[N II]"
+    wavelength: 6585.27
+    source: ["AGN", "stellar"]
+    line_origin: ["NLR", "post-AGB", "shocks"]
+    nucleosynthesis: ["AGB", "CCSNe"]
+    diagnostic: ["T_e", "Z/H"]
+    references: ["S. Kirhakos & M. M. Phillips (1989)"]
+
+  - feature: "[S II]"
+    wavelength: 6718.29
+    source: ["AGN"]
+    line_origin: ["NLR", "post-AGB", "shocks"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "ionization (with [S III])", "gas density"]
+    references: ["S. Kirhakos & M. M. Phillips (1989)"]
+
+  - feature: "[S II]"
+    wavelength: 6732.68
+    source: ["AGN", "stellar"]
+    line_origin: ["NLR", "post-AGB", "shocks"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "ionization (with [S III])", "gas density"]
+    references: ["J. A. Baldwin et al. (1981)"]
+
+  - feature: "[Fe VII]"
+    wavelength: 6088.61
+    source: ["AGN"]
+    line_origin: ["CLR"]
+    nucleosynthesis: ["SNeIa", "CCSNe"]
+    diagnostic: ["T_e", "gas density"]
+    references: ["D. E. Osterbrock & J. M. Shuder (1982)"]
+    notes: "i"
+
+  - feature: "[Ar III]"
+    wavelength: 7137.77
+    source: ["AGN"]
+    line_origin: ["NLR"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["high-ionization"]
+    references: ["D. Schaerer et al. (2000)"]
+
+  - feature: "[S III]"
+    wavelength: 9071.32
+    source: ["AGN", "ISM"]
+    line_origin: ["NLR"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "Z/H", "ionization (with [S II])"]
+    references: ["S. Kirhakos & M. M. Phillips (1989)"]
+
+  - feature: "[S III]"
+    wavelength: 9533.20
+    source: ["AGN", "ISM"]
+    line_origin: ["NLR"]
+    nucleosynthesis: ["CCSNe"]
+    diagnostic: ["T_e", "Z/H", "ionization (with [S II])"]
+    references: ["S. Kirhakos & M. M. Phillips (1989)"]
+
+  - feature: "He I"
+    wavelength: 10031.20
+    source: ["ISM"]
+    line_origin: ["NLR/BLR"]
+    nucleosynthesis: ["BBN", "CCSNe"]
+    diagnostic: ["T_e", "gas density", "T_eff"]
+    references: ["D. E. Osterbrock et al. (1990)"]
+
+  - feature: "He I"
+    wavelength: 10830.00
+    source: ["AGN", "ISM", "stellar"]
+    line_origin: ["NLR/BLR", "WR winds"]
+    nucleosynthesis: ["BBN", "CCSNe"]
+    diagnostic: ["T_e", "gas density", "T_eff"]
+    references: ["D. E. Osterbrock et al. (1990); G. Worthey et al. (1994)"]
+    notes: "vii"
+
+# Footnote definitions
+footnotes:
+  a: "Lick index measuring abundance of main absorber"
+  b: "Formerly Fe4668, renamed C2 4668 (carbon-sensitive)"
+  c: "Blend of Ti I, Ba I, Fe I, Ca I at ~6500 Å"
+  d: "Broad molecular bandhead feature"
+  e: "Na I doublet (5889, 5896 Å), ISM outflow contribution"
+  f: "CN2 Lick index definition avoiding Hδ"
+  g: "Mgb complex - Mg I triplet lines"
+  h: "G-band blend (CH, Fe, Ca)"
+  i: "High-ionization AGN/starburst lines or specific note"
+  j: "Mn I from explosive Si burning in CCSNe"
+  k: "Elements formed in massive stars, released via CCSNe"
+  l: "Type Ia from thermonuclear WD explosions"
+  m: "Surface gravity traces dwarf/giant ratio (IMF)"
+  iv: "FeH Wing-Ford band (9850-10200 Å)"
+  vi: "CN blend with TiO, ZrO"
+  vii: "NIR He I triplet (10832.1, 10833.2, 10833.3 Å)"
+  viii: "Na I 0.82µm blend with TiO bandhead"
+  "8": "CLR = Coronal Line Region"
+
+# Usage notes
+usage_notes: |
+  This atlas covers rest-frame 0.3-1.9 µm spectral features in quiescent galaxies.
+
+  Key applications:
+  - Stellar population age dating (Balmer/Paschen lines)
+  - Metallicity measurements (Fe, Mg, Ca indices)
+  - IMF constraints (surface gravity indicators)
+  - α/Fe enhancement (Mg, Ca vs Fe indices)
+  - AGB star diagnostics (TiO, VO, CN, CO)
+  - AGN/ionized gas identification (emission lines)
+
+  For JWST NIRSpec observations at z > 1, rest-optical features
+  shift into observed NIR, making this atlas particularly valuable
+  for high-redshift quiescent galaxy studies.
+
+# Diagnostic summary
+diagnostic_summary:
+  age_tracers:
+    - "Balmer series (Hα, Hβ, Hγ, Hδ)"
+    - "Paschen series (Paα, Paβ, Paγ, etc.)"
+    - "Balmer limit (H∞)"
+    - "TiO bands (AGB stars)"
+
+  metallicity_tracers:
+    - "Fe I lines (Lick Fe indices)"
+    - "Mg I/MgH (Mgb complex)"
+    - "Ca II triplet"
+    - "Na I doublet"
+
+  alpha_enhancement:
+    - "Mg indices vs Fe indices"
+    - "Ca II vs Fe I"
+
+  imf_surface_gravity:
+    - "Na I 0.82 µm (dwarf-sensitive)"
+    - "FeH Wing-Ford band (dwarf-sensitive)"
+    - "Ca II triplet (giant-sensitive)"
+    - "MgH (dwarf-sensitive)"
+
+  agb_diagnostics:
+    - "TiO bands (M-type AGB)"
+    - "CN bands (C-type AGB)"
+    - "VO bands (late M-type)"
+    - "CO bands (C/O-rich AGB)"
