@@ -1,0 +1,29 @@
+citation,authors,year,journal,status,link,link_type,verification_notes,agent_source
+"Woudenberg & Helmi 2024","Woudenberg H.C.; Helmi A.",2024,"A&A 691, A277",✅ Verified,"https://arxiv.org/abs/2407.21790",arXiv,"Full text extracted; first triaxiality measurement",Phase 2 Agent 1
+"Fernandez et al. 2025","Fernandez J.X.; Zhang J.; Bahé Y.M. et al.",2025,"arXiv:2603.23158",✅ Verified,"https://arxiv.org/abs/2603.23158",arXiv,"ICL superiority quantified",Phase 2 Agent 2
+"Bartalesi et al. 2024","Bartalesi T.; Ettori S.; Nipoti C.",2024,"A&A 682, A31",✅ Verified,"https://arxiv.org/abs/2311.01521",arXiv,"X-ray rotation bias",Phase 2 Agent 3
+"Robison et al. 2023","Robison B. et al.",2023,"MNRAS 523, 1614",✅ Verified,"https://arxiv.org/abs/2209.09088",arXiv,"UNIONS halo shapes",Phase 1 Agent 1
+"Law & Majewski 2010","Law D.R.; Majewski S.R.",2010,"ApJ 714, 229",✅ Verified,"https://arxiv.org/abs/0908.3187",arXiv,"Sgr stream triaxiality",Phase 1 Agent 1
+"Vera-Ciro & Helmi 2013","Vera-Ciro C.; Helmi A.",2013,"ApJ 773, L4",✅ Verified,"https://arxiv.org/abs/1309.2644",arXiv,"MW halo constraints",Phase 1 Agent 2
+"Oguri et al. 2005","Oguri M. et al.",2005,"ApJ 623, 70",✅ Verified,"https://arxiv.org/abs/astro-ph/0407237",arXiv,"Strong lensing triaxiality",Phase 1 Agent 1
+"Alimi & Koskas 2024","Alimi J.-M.; Koskas M.",2024,"A&A 691, A10",🔍 Pending,"-",-,"Universality claim; need verification",Phase 1 Agent 1
+"Herle et al. 2025","Herle A. et al.",2025,"A&A 699, A192",🔍 Pending,"-",-,"Sampling noise correction",Phase 1 Agent 1
+"Sahu et al. 2025","Sahu S. et al.",2025,"ApJ 991, L27",🔍 Pending,"-",-,"JWST DM cores",Phase 1 Agent 1
+"van Uitert et al. 2012","van Uitert E. et al.",2012,"A&A 545, A71",⚠️ Abstract only,"https://doi.org/10.1051/0004-6361/201219058",DOI,"Classic WL method; full text paywalled",Phase 1 Agent 2
+"Kang & van den Bosch 2017","Kang X.; van den Bosch F.C.",2017,"ApJ 849, 35",🔍 Pending,"-",-,"Satellite anisotropy",Phase 1 Agent 2
+"Shin et al. 2018","Shin T. et al.",2018,"MNRAS 475, 2421",🔍 Pending,"-",-,"SDSS satellite alignment",Phase 1 Agent 2
+"McDaniel et al. 2021","McDaniel A. et al.",2021,"ApJ 911, 40",🔍 Pending,"-",-,"X-ray shapes of ellipticals",Phase 1 Agent 1
+"Chemaly et al. 2025","Chemaly et al.",2025,"arXiv:2601.15373",🔍 Pending,"-",-,"Photometric stream inference",Phase 1 Agent 1
+"Tacchella et al. 2024","Tacchella S. et al.",2024,"-",🔍 Pending,"-",-,"Triaxial Schwarzschild",Phase 1 Agent 2
+"Poci et al. 2025","Poci A. et al.",2025,"A&A",🔍 Pending,"-",-,"Unbiased satellite methods",Phase 1 Agent 2
+"Zanatta et al. 2024","Zanatta E. et al.",2024,"A&A",🔍 Pending,"-",-,"Cen A halo shape",Phase 1 Agent 2
+"Clampitt & Jain 2016","Clampitt J.; Jain B.",2016,"MNRAS 457, 4135",🔍 Pending,"-",-,"WL galaxy-galaxy lensing",Phase 1 Agent 1
+"Samuroff et al. 2021","Samuroff S. et al.",2021,"A&A 646, A73",🔍 Pending,"-",-,"REDMAGIC WL",Phase 1 Agent 1
+"Robertson et al. 2023","Robertson A. et al.",2023,"MNRAS",🔍 Pending,"-",-,"CFHT S82 WL",Phase 1 Agent 1
+"Kochanek & Dalal 2004","Kochanek C.S.; Dalal N.",2004,"-",🔍 Pending,"-",-,"Quad lens flux anomalies",Phase 1 Agent 1
+"Suyu & Halkola 2010","Suyu S.; Halkola A.",2010,"-",🔍 Pending,"-",-,"Lens modeling",Phase 1 Agent 1
+"Gibbons et al. 2014","Gibbons S. et al.",2014,"-",🔍 Pending,"-",-,"Multiple streams",Phase 1 Agent 1
+"Bowden et al. 2015","Bowden A. et al.",2015,"-",🔍 Pending,"-",-,"Triaxiality constraints",Phase 1 Agent 1
+"Nibauer et al. 2023","Nibauer J. et al.",2023,"-",🔍 Pending,"-",-,"NGC 5128 streams",Phase 1 Agent 1
+"Brainerd 2005","Brainerd T.",2005,"-",🔍 Pending,"-",-,"Satellite anisotropy",Phase 1 Agent 1
+"Wang et al. 2014","Wang Y. et al.",2014,"-",🔍 Pending,"-",-,"SDSS groups",Phase 1 Agent 1

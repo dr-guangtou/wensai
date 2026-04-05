@@ -1,14 +1,14 @@
 ---
-title: "MacOS Computer Setup for Work"
 date: 2026-02-23
-topic: "Mac Setup"
-category: "Documentation"
-tags: ["macos", "setup", "tools", "productivity", "development"]
-status: "complete"
-source: "Yuzhe Research"
-type: "documentation"
+title: MacOS Computer Setup for Work
+source: Yuzhe Research
+tags:
+  - personal
+status: complete
+topic: Mac Setup
+category: Documentation
+type: documentation
 ---
-
 # MacOS Computer Setup for Work
 
 A comprehensive guide for setting up a productive macOS development environment. This document covers essential utilities, terminal tools, coding environments, and agentic AI tools.

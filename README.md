@@ -1,10 +1,8 @@
 ---
 date: 2026-02-19
 tags:
-  - vault
   - documentation
 ---
-
 # Wensai — Personal Knowledge Management Vault
 
 Song Huang's Obsidian vault for daily research journaling, scientific literature, code-project tracking, and instrumentation notes. Managed with the [Obsidian CLI](https://obsidian.md) (`vault=wensai`).
@@ -22,10 +20,10 @@ Song Huang's Obsidian vault for daily research journaling, scientific literature
 | `development/repo.yaml`          | Config    | Central registry of every active repo (paths, GitHub URLs, status, agent session IDs). |
 | `development/[REPO]/`            | Journal   | Per-repo development journals written by AI coding agents.                             |
 | `journal/`                       | Journal   | Daily research journal.                                                                |
-| `journal/[YYYY]/[YYYY-MM-DD].md` | Journal   | One file per day with Focus, Journal, Idea, and TIL sections.                          |
-| `journal/agentic_daily`          | Journal   | Daily digest of Agentic AI and LLM related news                                        |
+| `journal/[YYYY]/[MM]/[YYYY-MM-DD].md` | Journal   | One file per day with Focus, Journal, Idea, and TIL sections.                          |
+| `journal/agentic_daily/[YYYY]/[MM]/`     | Journal   | Daily digest of Agentic AI and LLM related news.                                       |
 | `papers/`                        | Reference | Notes on individual publications.                                                      |
-| `papers/arxiv/`                  | Reference | Daily arXiv digest notes synced from `yuzhe`.                                          |
+| `papers/arxiv/[YYYY]/[MM]/`      | Reference | Daily arXiv digest notes synced from `yuzhe`.                                          |
 | `papers/extragalactic/`          | Reference | Curated extragalactic paper notes.                                                     |
 | `projects/`                      | Project   | Research project notes, organised by topic.                                            |
 | `projects/massive/`              | Project   | Low-redshift massive galaxy analysis.                                                  |
@@ -94,9 +92,9 @@ bash journal/new_daily.sh
 ```
 
 **What it does:**
-1. Resolves today's date (`YYYY-MM-DD`) and the matching year folder (`journal/YYYY/`).
-2. Checks if `journal/YYYY/YYYY-MM-DD.md` already exists — if so, prints `Already exists:` and exits cleanly.
-3. Creates the year directory if needed, then copies the template with `{{date}}` substituted.
+1. Resolves today's date (`YYYY-MM-DD`) and the matching year/month folder (`journal/YYYY/MM/`).
+2. Checks if `journal/YYYY/MM/YYYY-MM-DD.md` already exists — if so, prints `Already exists:` and exits cleanly.
+3. Creates the year/month directory if needed, then copies the template with `{{date}}` substituted.
 
 **Output:**
 
@@ -135,3 +133,31 @@ bash papers/arxiv/sync_arxiv.sh
 4. Prints a summary: `Done: N synced, M skipped.`
 
 **Note:** requires Dropbox to be running and the `yuzhe` project to be available at its configured path. If the source directory is missing the script exits with an error.
+
+---
+
+### `scripts/migrate_tags.py` — Tag Migration Tool
+
+One-time migration script that converts the vault's flat tag system to a nested taxonomy. Can be re-run safely.
+
+**Usage:**
+
+```bash
+python scripts/migrate_tags.py --dry-run   # preview changes
+python scripts/migrate_tags.py             # apply changes
+```
+
+**What it does:**
+1. Fixes YAML syntax (inline arrays, quotes, commas, wiki-links in tags).
+2. Maps flat tags to nested taxonomy (e.g., `photo-z` → `astro/photometry`).
+3. Extracts paper-specific keywords to a `topics:` front-matter field.
+4. Adds front matter to files missing it (infers location tag from path).
+
+---
+
+## Tag System
+
+See `AGENTS.md` § Tag System for the full taxonomy. Key principles:
+- Every note gets **exactly one location tag** (e.g., `journal`, `paper`, `development`) as the first tag.
+- Topic tags use `/` hierarchy: `astro/galaxy`, `ai/agent`, `dev/isoster`, etc.
+- Paper-specific keywords go in `topics:` front-matter, not tags.
