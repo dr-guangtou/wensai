@@ -5,8 +5,9 @@
 VAULT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 TODAY=$(date +%Y-%m-%d)
 YEAR=$(date +%Y)
+MONTH=$(date +%m)
 
-DEST_DIR="$VAULT_ROOT/journal/$YEAR"
+DEST_DIR="$VAULT_ROOT/journal/$YEAR/$MONTH"
 DEST_FILE="$DEST_DIR/$TODAY.md"
 TEMPLATE="$VAULT_ROOT/templates/template_journal.md"
 
